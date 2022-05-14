@@ -84,14 +84,15 @@ class Achievements {
 
 		// EDIT 2: Uhh this is weird, this message was written for MInd Games, so it doesn't apply logically for Psych Engine LOL
 		
-		//Ignore whatever that is up there, the current goal is trying to add the stage for tomongus and that may involve putting
-		//the stage in a different folder and just coding it into the game. Try looking in StageData.hx and PlayState.hex when
-		//atempting, look up videos of how to do it as well. To test if the stage works just enter a song in freeplay and
-		//go to the songs section, either change the stage name to "sus" or erase the current song name and type "sussy" to see if
-		//the JSON will work. Once we figure this out we can add 2 more characters and stages knowing how to do that from what we
-		//just did. Then we need to figure out how to code in different types of notes the player's supposed to avoid and concepts
-		//as what will happen if they do, we can then make sprites of Daniel and change the JSON code to wrk with Danie. Then
-		//we'll find away on how to make a chomatic scale and replace player's vocals to use some from Daniel.
+		//Update: I managed to get the stage to appear, took all day and messing with the JSON and Lua files but it does work
+		//You can view it by looking going into freeplay and pressing 7 for debug, then go to the songs section and erase the
+		//current song and rename it to sussy. (1.Yes it's called that 2. because the actual song's name is not High school
+		//appropiate, guaranteed that students will giggle or be confused if they knew the real name)
+		//Now we just need to add 2 more characters, songs, and stages so we can then focus on figuring out how to code in different
+		//types of notes the player's supposed to avoid and concepts as what will happen if they do, we can then make sprites of 
+		//Daniel and change the JSON code to work with Daniel. Then we'll find away on how to make a chomatic scale and replace 
+		//player's vocals to use some from Daniel. Adding stages,songs, and charatcers would've taken too long if we tried using
+		//Kade engine, though I assume that coding will be harder now :(
 	}
 }
 
