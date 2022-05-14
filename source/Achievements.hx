@@ -83,6 +83,15 @@ class Achievements {
 		// buffoon
 
 		// EDIT 2: Uhh this is weird, this message was written for MInd Games, so it doesn't apply logically for Psych Engine LOL
+		
+		//Ignore whatever that is up there, the current goal is trying to add the stage for tomongus and that may involve putting
+		//the stage in a different folder and just coding it into the game. Try looking in StageData.hx and PlayState.hex when
+		//atempting, look up videos of how to do it as well. To test if the stage works just enter a song in freeplay and
+		//go to the songs section, either change the stage name to "sus" or erase the current song name and type "sussy" to see if
+		//the JSON will work. Once we figure this out we can add 2 more characters and stages knowing how to do that from what we
+		//just did. Then we need to figure out how to code in different types of notes the player's supposed to avoid and concepts
+		//as what will happen if they do, we can then make sprites of Daniel and change the JSON code to wrk with Danie. Then
+		//we'll find away on how to make a chomatic scale and replace player's vocals to use some from Daniel.
 	}
 }
 
