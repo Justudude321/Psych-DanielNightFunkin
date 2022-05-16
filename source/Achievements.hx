@@ -86,13 +86,24 @@ class Achievements {
 		
 		//Update: I managed to get the stage to appear, took all day and messing with the JSON and Lua files but it does work
 		//You can view it by looking going into freeplay and pressing 7 for debug, then go to the songs section and erase the
-		//current song and rename it to sussy. (1.Yes it's called that 2. because the actual song's name is not High school
+		//current song and rename it to "sussy". (1.Yes it's called that 2. because the actual song's name is not High school
 		//appropiate, guaranteed that students will giggle or be confused if they knew the real name)
 		//Now we just need to add 2 more characters, songs, and stages so we can then focus on figuring out how to code in different
 		//types of notes the player's supposed to avoid and concepts as what will happen if they do, we can then make sprites of 
 		//Daniel and change the JSON code to work with Daniel. Then we'll find away on how to make a chomatic scale and replace 
 		//player's vocals to use some from Daniel. Adding stages,songs, and charatcers would've taken too long if we tried using
 		//Kade engine, though I assume that coding will be harder now :(
+
+		//Update 2: I got the second character in the mod now and even made the camera zoom in and out depending on who's turn it
+		//is in the chart, took a while as those were made for the kade engine but if it works then don't touch anything that 
+		//could make it not work. Been trying to add the 3rd character in but there is a lot of assets that needs some editing
+		//and rewriting in order to work here as there is a lot, main issue is that they're all given weird names which makes
+		//things confusing such as "julian.png" is orginal name in the assets was "testis.png" along with the stage's JSON and
+		//Lua files being called "better-balls." I'll probaby write down a list as what the assets name refers to as well as
+		//what they should be renamed as. If you want to view the new character and song just do the same thing as last time
+		//but type "finale" instead of sussy. Btw a small bug but don't try to change the difficulty in the middle of the songs
+		//as it will crash the game, if you want to view finale's normal difficulty chart you'll have to select a song with
+		//the difficulty set to normal.
 	}
 }
 
