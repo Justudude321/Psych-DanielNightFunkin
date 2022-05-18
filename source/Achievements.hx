@@ -104,6 +104,11 @@ class Achievements {
 		//but type "finale" instead of sussy. Btw a small bug but don't try to change the difficulty in the middle of the songs
 		//as it will crash the game, if you want to view finale's normal difficulty chart you'll have to select a song with
 		//the difficulty set to normal.
+
+		//Update 3: Julian is buggged out, the second sprite doesn't appear when it need to be and and the third sprite's icon
+		//appear as well, BF's glowing sprites don't change either, and the camera keeps shaking. GF's doing fine, she's even bopping
+		//her head to the beat like she's supposed to, tho I guess when your playing the game you'll hardly notice so... this needs
+		//alot of fixing
 	}
 }
 
