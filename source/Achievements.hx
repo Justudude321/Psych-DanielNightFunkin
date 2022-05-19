@@ -26,7 +26,8 @@ class Achievements {
 		["Hyperactive",					"Finish a Song without going Idle.",				'hype',					false],
 		["Just the Two of Us",			"Finish a Song pressing only two keys.",			'two_keys',				false],
 		["Toaster Gamer",				"Have you tried to run the game on a toaster?",		'toastie',				false],
-		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",	'debugger',				 true]
+		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",	'debugger',				 true],
+		["You Suck!",					"Fail the tutorial",								'',				false]
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 
@@ -84,31 +85,13 @@ class Achievements {
 
 		// EDIT 2: Uhh this is weird, this message was written for MInd Games, so it doesn't apply logically for Psych Engine LOL
 		
-		//Update: I managed to get the stage to appear, took all day and messing with the JSON and Lua files but it does work
-		//You can view it by looking going into freeplay and pressing 7 for debug, then go to the songs section and erase the
-		//current song and rename it to "sussy". (1.Yes it's called that 2. because the actual song's name is not High school
-		//appropiate, guaranteed that students will giggle or be confused if they knew the real name)
-		//Now we just need to add 2 more characters, songs, and stages so we can then focus on figuring out how to code in different
-		//types of notes the player's supposed to avoid and concepts as what will happen if they do, we can then make sprites of 
-		//Daniel and change the JSON code to work with Daniel. Then we'll find away on how to make a chomatic scale and replace 
-		//player's vocals to use some from Daniel. Adding stages,songs, and charatcers would've taken too long if we tried using
-		//Kade engine, though I assume that coding will be harder now :(
-
-		//Update 2: I got the second character in the mod now and even made the camera zoom in and out depending on who's turn it
-		//is in the chart, took a while as those were made for the kade engine but if it works then don't touch anything that 
-		//could make it not work. Been trying to add the 3rd character in but there is a lot of assets that needs some editing
-		//and rewriting in order to work here as there is a lot, main issue is that they're all given weird names which makes
-		//things confusing such as "julian.png" is orginal name in the assets was "testis.png" along with the stage's JSON and
-		//Lua files being called "better-balls." I'll probaby write down a list as what the assets name refers to as well as
-		//what they should be renamed as. If you want to view the new character and song just do the same thing as last time
-		//but type "finale" instead of sussy. Btw a small bug but don't try to change the difficulty in the middle of the songs
-		//as it will crash the game, if you want to view finale's normal difficulty chart you'll have to select a song with
-		//the difficulty set to normal.
-
-		//Update 3: Julian is buggged out, the second sprite doesn't appear when it need to be and and the third sprite's icon
-		//appear as well, BF's glowing sprites don't change either, and the camera keeps shaking. GF's doing fine, she's even bopping
-		//her head to the beat like she's supposed to, tho I guess when your playing the game you'll hardly notice so... this needs
-		//alot of fixing
+		/*Update: I shoved all the assets in as well as learned a bit of how the lua files work, kinda. In the mean time we'll
+		try and mess around in the Achievements.hx file and see if I can find a way to add some of the basic achievements like 
+		"You Suck!" (fail tutorial) and "Gotta start somewhere..." (beat the tutorial). I know that there has to be a counter to 
+		count the amount times you press a "gimmick note" so I just looked for a place to set up a base and figure it out by
+		looking how other achievement are unlock like "Roadkill Enthusiast" since it counts the amount of times the henchmen died
+		in that stage.
+		*/
 	}
 }
 
