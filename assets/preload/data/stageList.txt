@@ -6,3 +6,7 @@ mall
 mallEvil
 school
 schoolEvil
+sus
+alley-swag
+alley
+beatCity
