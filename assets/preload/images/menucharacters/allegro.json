@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "M Dad Idle",
+	"idle_anim": "M AL idle",
+	"position": [
+		285,
+		324
+	],
+	"scale": 0.4,
+	"image": "Menu_Allegro",
+	"flipX": false
+}

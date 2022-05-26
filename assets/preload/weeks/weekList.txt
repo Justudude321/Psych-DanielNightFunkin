@@ -6,3 +6,5 @@ week4
 week5
 week6
 weekJulian
+weekAllegro
+weekSus

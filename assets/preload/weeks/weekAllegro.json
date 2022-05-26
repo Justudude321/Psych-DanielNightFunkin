@@ -1,12 +1,12 @@
 {
 	"songs": [
 		[
-			"underground",
-			"julian",
+			"finale",
+			"allegro",
 			[
-				255,
-				95,
-				0
+				0,
+				215,
+				180
 			]
 		]
 	],
@@ -15,18 +15,18 @@
 	"weekBackground": "stage",
 	"difficulties": "",
 	"weekCharacters": [
-		"Julian",
+		"Allegro",
 		"bf",
 		"gf"
 	],
-	"storyName": "Gotta have diversity",
-	"weekName": "weekJuli",
+	"storyName": "Criminally underrated",
+	"weekName": "weekAl",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
+	"weekBefore": "weekJulian",
 	"startUnlocked": true
 }
