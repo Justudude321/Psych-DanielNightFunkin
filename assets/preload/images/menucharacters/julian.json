@@ -1,11 +1,11 @@
 {
+	"confirm_anim": "M Dad Idle",
 	"idle_anim": "M Julian idle",
-	"image": "Menu_Julian",
 	"position": [
 		140,
-		200
+		215
 	],
-	"flipX": false,
 	"scale": 0.45,
-	"confirm_anim": "M Dad Idle"
+	"image": "Menu_Julian",
+	"flipX": false
 }
