@@ -111,6 +111,30 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
+				case 'Sus Note':
+					ignoreNote = mustPress;
+					reloadNote('SUS');
+					noteSplashTexture = 'SUSnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					missHealth = 0.15;
+				case 'Glitch Note':
+					ignoreNote = mustPress;
+					reloadNote('GLITCH');
+					noteSplashTexture = 'GLITCHnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					missHealth = 0.15;
+				case 'Blind Note':
+					ignoreNote = mustPress;
+					reloadNote('BLIND');
+					noteSplashTexture = 'BLINDnoteSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					missHealth = 0.15;
 				case 'No Animation':
 					noAnimation = true;
 				case 'GF Sing':
