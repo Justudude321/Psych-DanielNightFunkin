@@ -90,13 +90,6 @@ class Achievements {
 
 		// EDIT 2: Uhh this is weird, this message was written for MInd Games, so it doesn't apply logically for Psych Engine LOL
 		
-		/*Update: I shoved all the assets in as well as learned a bit of how the lua files work, kinda. In the mean time we'll
-		try and mess around in the Achievements.hx file and see if I can find a way to add some of the basic achievements like 
-		"You Suck!" (fail tutorial) and "Gotta start somewhere..." (beat the tutorial). I know that there has to be a counter to 
-		count the amount times you press a "gimmick note" so I just looked for a place to set up a base and figure it out by
-		looking how other achievement are unlock like "Roadkill Enthusiast" since it counts the amount of times the henchmen died
-		in that stage.
-		*/
 	}
 }
 
@@ -117,11 +110,9 @@ class AttachedAchievement extends FlxSprite {
 
 	public function reloadAchievementImage() {
 		if(Achievements.isAchievementUnlocked(tag)) {
-			loadGraphic(Paths.image('achievementgrid'), true, 150, 150);
-			animation.add('icon', [Achievements.getAchievementIndex(tag)], 0, false, false);
-			animation.play('icon');
+			loadGraphic(Paths.image('achievements/' + tag));
 		} else {
-			loadGraphic(Paths.image('lockedachievement'));
+			loadGraphic(Paths.image('achievements/lockedachievement'));
 		}
 		scale.set(0.7, 0.7);
 		updateHitbox();
@@ -147,9 +138,7 @@ class AchievementObject extends FlxSpriteGroup {
 		var achievementBG:FlxSprite = new FlxSprite(60, 50).makeGraphic(420, 120, FlxColor.BLACK);
 		achievementBG.scrollFactor.set();
 
-		var achievementIcon:FlxSprite = new FlxSprite(achievementBG.x + 10, achievementBG.y + 10).loadGraphic(Paths.image('achievementgrid'), true, 150, 150);
-		achievementIcon.animation.add('icon', [id], 0, false, false);
-		achievementIcon.animation.play('icon');
+		var achievementIcon:FlxSprite = new FlxSprite(achievementBG.x + 10, achievementBG.y + 10).loadGraphic(Paths.image('achievements/' + name));
 		achievementIcon.scrollFactor.set();
 		achievementIcon.setGraphicSize(Std.int(achievementIcon.width * (2 / 3)));
 		achievementIcon.updateHitbox();
