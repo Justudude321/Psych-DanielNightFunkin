@@ -3179,7 +3179,7 @@ class PlayState extends MusicBeatState
 		} else {
 			var achieve:String = checkForAchievement(['week1_nomiss', 'week2_nomiss', 'week3_nomiss', 'week4_nomiss',
 				'week5_nomiss', 'week6_nomiss', 'week7_nomiss', 'ur_bad',
-				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);
+				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger', 'failure']);
 
 			if(achieve != null) {
 				startAchievement(achieve);
@@ -3898,6 +3898,23 @@ class PlayState extends MusicBeatState
 						if(boyfriend.animation.getByName('hurt') != null) {
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
+						}
+						// Does the cool move notes in random directions, tho it will be unplayable if you press too many
+						
+						var chance:Int = 0;
+						chance += FlxG.random.int(1,9);
+
+						if(chance % 2 == 0) {
+							for (i in 0...playerStrums.length) {
+							setOnLuas('defaultPlayerStrumX' + i, playerStrums.members[i].x - FlxG.random.float(50, FlxG.width / 10));
+							setOnLuas('defaultPlayerStrumY' + i, playerStrums.members[i].y - FlxG.random.float(-50, -FlxG.height / 11));
+							}
+						}
+						else{
+							for (i in 0...playerStrums.length) {
+								setOnLuas('defaultPlayerStrumX' + i, playerStrums.members[i].x + FlxG.random.float(50, FlxG.width / 10));
+								setOnLuas('defaultPlayerStrumY' + i, playerStrums.members[i].y + FlxG.random.float(-50, -FlxG.height / 11));
+								}
 						}
 					case 'Blind Note':
 						if(boyfriend.animation.getByName('hurt') != null) {
