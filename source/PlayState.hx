@@ -3899,8 +3899,11 @@ class PlayState extends MusicBeatState
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
 						}
-						// Does the cool move notes in random directions, tho it will be unplayable if you press too many
-						
+						/* Note, turns out the lua file I edited actually does the thing I need it to do, idk this affects it or
+						not, I assume it does since without the code the notes placed into the chart will always be placed apart
+						in the same way when restarting the song, with the code even if I restart the placement will change.
+						Sometimes by lot and other times not a lot...
+						*/
 						var chance:Int = 0;
 						chance += FlxG.random.int(1,9);
 
