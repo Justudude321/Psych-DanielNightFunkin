@@ -59,8 +59,6 @@ function onCreate()
 end
 end
 
---function cancelTimer
-
 function onTimerCompleted(tag, loops, loopsleft)
 	if tag == 'wait' then
 		doTweenAlpha('byebye', 'dark', 0, 9, 'linear');
