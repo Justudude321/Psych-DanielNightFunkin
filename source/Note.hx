@@ -138,6 +138,7 @@ class Note extends FlxSprite
 					colorSwap.brightness = 0;
 					missHealth = 0.15;
 					hitCausesMiss = true;
+					//Ahhh test push
 				case 'No Animation':
 					noAnimation = true;
 				case 'GF Sing':
