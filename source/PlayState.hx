@@ -3179,7 +3179,7 @@ class PlayState extends MusicBeatState
 		} else {
 			var achieve:String = checkForAchievement(['week1_nomiss', 'week2_nomiss', 'week3_nomiss', 'week4_nomiss',
 				'week5_nomiss', 'week6_nomiss', 'week7_nomiss', 'ur_bad',
-				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger']);
+				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger', 'failure']);
 
 			if(achieve != null) {
 				startAchievement(achieve);
@@ -3898,6 +3898,26 @@ class PlayState extends MusicBeatState
 						if(boyfriend.animation.getByName('hurt') != null) {
 							boyfriend.playAnim('hurt', true);
 							boyfriend.specialAnim = true;
+						}
+						/* Note, turns out the lua file I edited actually does the thing I need it to do, idk this affects it or
+						not, I assume it does since without the code the notes placed into the chart will always be placed apart
+						in the same way when restarting the song, with the code even if I restart the placement will change.
+						Sometimes by lot and other times not a lot...
+						*/
+						var chance:Int = 0;
+						chance += FlxG.random.int(1,9);
+
+						if(chance % 2 == 0) {
+							for (i in 0...playerStrums.length) {
+							setOnLuas('defaultPlayerStrumX' + i, playerStrums.members[i].x - FlxG.random.float(50, FlxG.width / 10));
+							setOnLuas('defaultPlayerStrumY' + i, playerStrums.members[i].y - FlxG.random.float(-50, -FlxG.height / 11));
+							}
+						}
+						else{
+							for (i in 0...playerStrums.length) {
+								setOnLuas('defaultPlayerStrumX' + i, playerStrums.members[i].x + FlxG.random.float(50, FlxG.width / 10));
+								setOnLuas('defaultPlayerStrumY' + i, playerStrums.members[i].y + FlxG.random.float(-50, -FlxG.height / 11));
+								}
 						}
 					case 'Blind Note':
 						if(boyfriend.animation.getByName('hurt') != null) {
