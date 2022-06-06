@@ -29,7 +29,7 @@ class Achievements {
 		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",	'debugger',				 true],
 		["Gotta start somewhere",       "Complete tutorial",								'tutorial',				false],
 		["You Suck!",					"Fail the tutorial",								'failure',				false],
-		["Singing Prodigy",				"A rank on all weeks",                              'a_ranker',             false],
+		//["Singing Prodigy",				"A rank on all weeks",                              'a_ranker',             false],
 		["True Completionist",			"Get all endings",									'completor',			false],
 		["That's all folks?",			"Complete story mode",								'storytime',			false],
 		["You eat crayons?",			"Hit 50 landmines or gimmick notes",				'bruh',					false]
