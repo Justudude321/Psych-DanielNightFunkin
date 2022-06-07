@@ -233,6 +233,7 @@ class PlayState extends MusicBeatState
 	public static var seenCutscene:Bool = false;
 	public static var deathCounter:Int = 0;
 	public static var gimmickCount:Int = 0;
+	public static var diedTutorial:Bool = false;
 
 	public var defaultCamZoom:Float = 1.05;
 
@@ -4544,17 +4545,17 @@ class PlayState extends MusicBeatState
 							unlock = true;
 						}
 					case 'failure':
-						if(Paths.formatToSongPath(SONG.song) == 'tutorial' && !boyfriend.stunned) {
+						if(Paths.formatToSongPath(SONG.song) == 'tutorial' && ratingPercent < 50) {
 							unlock = true;
 						}
 					case 'beginner':
-						if(Paths.formatToSongPath(SONG.song) == 'tutorial' && boyfriend.stunned) {
+						if(Paths.formatToSongPath(SONG.song) == 'tutorial') {
 							unlock = true;
 						}
-					// case 'storytime':
-					// 	if(Paths.formatToSongPath(SONG.song) == 'underground'){
-					// 		unlock = true;
-					// 	}
+					case 'storytime':
+						if(Paths.formatToSongPath(SONG.song) == 'sussy'){
+							unlock = true;
+						}
 
 					case 'bruh':
 						if(gimmickCount > 50){

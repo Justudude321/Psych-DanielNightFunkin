@@ -28,7 +28,7 @@ class Achievements {
 		["Toaster Gamer",				"Have you tried to run the game on a toaster?",		'toastie',				false],
 		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",	'debugger',				 true],
 		["Gotta start somewhere",       "Complete tutorial",								'beginner',				false],
-		["You Suck!",					"Fail the tutorial & beat it proper",				'failure',				false],
+		["You Suck!",					"Get an embarassing score on the tutorial",			'failure',				false],
 		["That's all folks?",			"Complete story mode",								'storytime',			false],
 		["Having Fun?",					"Hit 50 gimmick notes",								'bruh',					false]
 	];
