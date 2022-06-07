@@ -351,8 +351,10 @@ class Paths
 				currentTrackedAssets.set(path, newGraphic);
 			}
 			localTrackedAssets.push(path);
+			trace(path);
 			return currentTrackedAssets.get(path);
 		}
+		trace(path);
 		trace('oh no its returning null NOOOO');
 		return null;
 	}

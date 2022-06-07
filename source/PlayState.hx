@@ -3179,7 +3179,7 @@ class PlayState extends MusicBeatState
 		} else {
 			var achieve:String = checkForAchievement(['week1_nomiss', 'week2_nomiss', 'week3_nomiss', 'week4_nomiss',
 				'week5_nomiss', 'week6_nomiss', 'week7_nomiss', 'ur_bad',
-				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger', 'failure']);
+				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger', 'beginner','failure','storytime', 'bruh']);
 
 			if(achieve != null) {
 				startAchievement(achieve);
@@ -4544,9 +4544,23 @@ class PlayState extends MusicBeatState
 							unlock = true;
 						}
 					case 'failure':
-						if(deathCounter > 0 && curStage == 'stage') {
+						if(Paths.formatToSongPath(SONG.song) == 'tutorial' && !boyfriend.stunned) {
 							unlock = true;
 						}
+					case 'beginner':
+						if(Paths.formatToSongPath(SONG.song) == 'tutorial' && boyfriend.stunned) {
+							unlock = true;
+						}
+					// case 'storytime':
+					// 	if(Paths.formatToSongPath(SONG.song) == 'underground'){
+					// 		unlock = true;
+					// 	}
+
+					case 'bruh':
+						if(gimmickCount > 50){
+							unlock = true;
+						}
+
 					}
 				if(unlock) {
 					Achievements.unlockAchievement(achievementName);

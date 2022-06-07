@@ -120,6 +120,7 @@ class Note extends FlxSprite
 					colorSwap.brightness = 0;
 					missHealth = 0.15;
 					hitCausesMiss = true;
+					PlayState.gimmickCount++;
 				case 'Glitch Note':
 					ignoreNote = mustPress;
 					reloadNote('GLITCH');
@@ -129,6 +130,7 @@ class Note extends FlxSprite
 					colorSwap.brightness = 0;
 					missHealth = 0.15;
 					hitCausesMiss = true;
+					PlayState.gimmickCount++;
 				case 'Blind Note':
 					ignoreNote = mustPress;
 					reloadNote('BLIND');
@@ -138,6 +140,7 @@ class Note extends FlxSprite
 					colorSwap.brightness = 0;
 					missHealth = 0.15;
 					hitCausesMiss = true;
+					PlayState.gimmickCount++;
 				case 'No Animation':
 					noAnimation = true;
 				case 'GF Sing':

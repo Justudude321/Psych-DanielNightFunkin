@@ -27,11 +27,10 @@ class Achievements {
 		["Just the Two of Us",			"Finish a Song pressing only two keys.",			'two_keys',				false],
 		["Toaster Gamer",				"Have you tried to run the game on a toaster?",		'toastie',				false],
 		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",	'debugger',				 true],
-		["Gotta start somewhere",       "Complete tutorial",								'tutorial',				false],
-		["You Suck!",					"Fail the tutorial",								'failure',				false],
-		["True Completionist",			"Get all endings",									'completor',			false],
+		["Gotta start somewhere",       "Complete tutorial",								'beginner',				false],
+		["You Suck!",					"Fail the tutorial & beat it proper",				'failure',				false],
 		["That's all folks?",			"Complete story mode",								'storytime',			false],
-		["You eat crayons?",			"Hit 50 landmines or gimmick notes",				'bruh',					false]
+		["Having Fun?",					"Hit 50 gimmick notes",								'bruh',					false]
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 
