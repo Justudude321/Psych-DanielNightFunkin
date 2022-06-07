@@ -32,7 +32,7 @@ function onCreate()
 		doTweenColor('hello3', 'ElecticalTamper3', 'FFFFFFFF', 0.2, 'quartIn');
 		setObjectCamera('dark3', 'other');
 		runTimer('wait3', 8);
-		count = count + 1
+		count = 4
 		end
 
 
@@ -42,7 +42,7 @@ function onCreate()
 		doTweenColor('hello', 'ElecticalTamper2', 'FFFFFFFF', 0.2, 'quartIn');
 		setObjectCamera('dark2', 'other');
 		runTimer('wait2', 12);
-		count = count + 1
+		count = 3
 		end
 
 		if count == 1 then
@@ -51,33 +51,32 @@ function onCreate()
 		doTweenColor('hello', 'ElecticalTamper1', 'FFFFFFFF', 0.2, 'quartIn');
 		setObjectCamera('dark', 'other');
 		runTimer('wait', 16);
-		count = count + 1
+		count = 2
 		end
 		
-		--Works!
+		--Works! kinda
 	end
 end
 end
 
 function onTimerCompleted(tag, loops, loopsleft)
 	if tag == 'wait' then
-		doTweenAlpha('byebye', 'dark', 0, 9, 'linear');
+		doTweenAlpha('byebye', 'dark', 0, 8, 'linear');
 	end
 
 	if tag == 'wait2' then
-		doTweenAlpha('byebye2', 'dark2', 0, 7, 'linear');
-		count = count - 1
+		doTweenAlpha('byebye2', 'dark2', 0, 6, 'linear');
 	end
 
 	if tag == 'wait3' then
-		doTweenAlpha('byebye3', 'dark3', 0, 5, 'linear');
-		count = count - 1
+		doTweenAlpha('byebye3', 'dark3', 0, 4, 'linear');
 	end
 
 	if tag == 'wait4' then
-		doTweenAlpha('byebye4', 'dark4', 0, 3, 'linear');
-		count = count - 1
+		doTweenAlpha('byebye4', 'dark4', 0, 2, 'linear');
 	end
+
+	count = 1 --for safety
 
 end
 
