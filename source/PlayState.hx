@@ -4545,7 +4545,7 @@ class PlayState extends MusicBeatState
 							unlock = true;
 						}
 					case 'failure':
-						if(Paths.formatToSongPath(SONG.song) == 'tutorial' && ratingPercent < 50) {
+						if(Paths.formatToSongPath(SONG.song) == 'tutorial' && ratingPercent < 0.5) {
 							unlock = true;
 						}
 					case 'beginner':
