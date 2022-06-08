@@ -4558,7 +4558,7 @@ class PlayState extends MusicBeatState
 						}
 
 					case 'bruh':
-						if(gimmickCount > 50){
+						if(gimmickCount > 100){
 							unlock = true;
 						}
 
