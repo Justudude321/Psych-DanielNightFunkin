@@ -1,4 +1,16 @@
 {
+	"storyName": "Criminally underrated",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "weekJulian",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"finale",
@@ -10,23 +22,11 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "stage",
-	"difficulties": "",
 	"weekCharacters": [
 		"Allegro",
 		"bf",
 		"gf"
 	],
-	"storyName": "Criminally underrated",
-	"weekName": "weekAl",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": false,
-	"weekBefore": "weekJulian",
-	"startUnlocked": true
+	"hiddenUntilUnlocked": false,
+	"weekName": "weekAl"
 }

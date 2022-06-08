@@ -1,4 +1,16 @@
 {
+	"storyName": "when your sus *default dances*",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "weekAllegro",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"sussy",
@@ -10,23 +22,11 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "stage",
-	"difficulties": "",
 	"weekCharacters": [
 		"tomong",
 		"bf",
 		"gf"
 	],
-	"storyName": "when your sus *default dances*",
-	"weekName": "weekAmongus",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": false,
-	"weekBefore": "weekAllegro",
-	"startUnlocked": true
+	"hiddenUntilUnlocked": false,
+	"weekName": "weekAmongus"
 }

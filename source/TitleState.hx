@@ -69,7 +69,7 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU'
+		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'CASSETTE'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -661,7 +661,8 @@ class TitleState extends MusicBeatState
 						FlxG.sound.play(Paths.sound('JingleShadow'));
 					case 'BBPANZU':
 						sound = FlxG.sound.play(Paths.sound('JingleBB'));
-					
+					case 'CASSETTE':
+						sound = FlxG.sound.play(Paths.sound('Coconut'));
 					default: //Go back to normal ugly ass boring GF
 						remove(ngSpr);
 						remove(credGroup);
@@ -675,6 +676,10 @@ class TitleState extends MusicBeatState
 				}
 
 				transitioning = true;
+				// if(easteregg == 'CASSETTE'){
+				// 	PlayState.SONG = Song.loadFromJson("file name-difficulty", "files path");
+   				// 	LoadingState.loadAndSwitchState(new PlayState());
+				// }
 				if(easteregg == 'SHADOW')
 				{
 					new FlxTimer().start(3.2, function(tmr:FlxTimer)
