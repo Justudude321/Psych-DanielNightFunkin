@@ -115,6 +115,9 @@
 				-5,
 				0
 			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
 			"indices": [
 				8,
 				9,
@@ -123,9 +126,6 @@
 				12,
 				13
 			],
-			"fps": 24,
-			"anim": "idle-loop",
-			"loop": true,
 			"name": "BF idle dance"
 		}
 	],
@@ -135,7 +135,7 @@
 		0,
 		350
 	],
-	"healthicon": "bf_cool",
+	"healthicon": "daniel_cool",
 	"flip_x": true,
 	"healthbar_colors": [
 		0,

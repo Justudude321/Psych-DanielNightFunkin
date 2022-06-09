@@ -69,7 +69,7 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
-		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'CASSETTE'
+		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU', 'CASSETTE', 'THISISJUSTFORSOUNDTHINGSOIDKHOWYOUTYPEDTHIS'
 	];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -300,6 +300,13 @@ class TitleState extends MusicBeatState
 				gfDance.frames = Paths.getSparrowAtlas('BBBump');
 				gfDance.animation.addByIndices('danceLeft', 'BB Title Bump', [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], "", 24, false);
 				gfDance.animation.addByIndices('danceRight', 'BB Title Bump', [27, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], "", 24, false);
+			
+			case 'CASSETTE':
+					PlayState.SONG = Song.loadFromJson("soda-groove", "soda-groove");
+					LoadingState.loadAndSwitchState(new PlayState());
+					FlxG.save.data.psychDevsEasterEgg = "THISISJUSTFORSOUNDTHINGSOIDKHOWYOUTYPEDTHIS";
+					
+
 			#end
 
 			default:
@@ -662,7 +669,10 @@ class TitleState extends MusicBeatState
 					case 'BBPANZU':
 						sound = FlxG.sound.play(Paths.sound('JingleBB'));
 					case 'CASSETTE':
-						sound = FlxG.sound.play(Paths.sound('Coconut'));
+						sound = FlxG.sound.play(Paths.sound('Tapestuff'));
+					case 'THISISJUSTFORSOUNDTHINGSOIDKHOWYOUTYPEDTHIS':
+						sound = FlxG.sound.play(Paths.sound('Tape'));
+
 					default: //Go back to normal ugly ass boring GF
 						remove(ngSpr);
 						remove(credGroup);
@@ -676,10 +686,7 @@ class TitleState extends MusicBeatState
 				}
 
 				transitioning = true;
-				// if(easteregg == 'CASSETTE'){
-				// 	PlayState.SONG = Song.loadFromJson("file name-difficulty", "files path");
-   				// 	LoadingState.loadAndSwitchState(new PlayState());
-				// }
+
 				if(easteregg == 'SHADOW')
 				{
 					new FlxTimer().start(3.2, function(tmr:FlxTimer)

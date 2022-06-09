@@ -10235,6 +10235,7 @@
 		"player3": null,
 		"sectionLength": 16,
 		"song": "underground",
+		"uiType": "hard",
 		"validScore": true,
 		"needsVoices": true,
 		"stage": "alley",

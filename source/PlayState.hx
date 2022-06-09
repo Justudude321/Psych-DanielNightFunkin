@@ -3180,7 +3180,8 @@ class PlayState extends MusicBeatState
 		} else {
 			var achieve:String = checkForAchievement(['week1_nomiss', 'week2_nomiss', 'week3_nomiss', 'week4_nomiss',
 				'week5_nomiss', 'week6_nomiss', 'week7_nomiss', 'ur_bad',
-				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger', 'beginner','failure','storytime', 'bruh']);
+				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger', 
+				'beginner','failure','storytime', 'bruh', 'just_chillin', '100%']);
 
 			if(achieve != null) {
 				startAchievement(achieve);
@@ -4556,10 +4557,19 @@ class PlayState extends MusicBeatState
 						if(Paths.formatToSongPath(SONG.song) == 'sussy'){
 							unlock = true;
 						}
-
 					case 'bruh':
 						if(gimmickCount > 100){
 							unlock = true;
+						}
+					case 'just_chillin':
+						if(Paths.formatToSongPath(SONG.song) == 'soda-groove'){
+							unlock = true;
+						}
+					case '100%':
+						
+						if(Achievements.isAchievementUnlocked('just_chillin') && Achievements.isAchievementUnlocked('bruh') && Achievements.isAchievementUnlocked('failure')){
+							unlock = true;
+							FlxG.save.data.psychDevsEasterEgg = "RIVER";
 						}
 
 					}

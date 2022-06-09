@@ -9533,6 +9533,7 @@
 		"player3": null,
 		"sectionLength": 16,
 		"song": "underground",
+		"uiType": "easy",
 		"validScore": true,
 		"stage": "alley",
 		"needsVoices": true,

@@ -30,7 +30,9 @@ class Achievements {
 		["Gotta start somewhere",       "Complete tutorial",								'beginner',				false],
 		["You Suck!",					"Get an embarassing score on the tutorial",			'failure',				false],
 		["That's all folks?",			"Complete story mode",								'storytime',			false],
-		["Having Fun?",					"Hit a total of 100 gimmick notes",					'bruh',					false]
+		["Having Fun?",					"Hit a total of 100 gimmick notes",					'bruh',					false],
+		["Pretty Neat right?",			"Beat the secret song",								'just_chillin',			false],
+		["Completionist",				"Get all achievements (From this mod)",				'100%',					false]
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 

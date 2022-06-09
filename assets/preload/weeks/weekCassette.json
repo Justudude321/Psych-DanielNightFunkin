@@ -1,0 +1,32 @@
+{
+	"storyName": "just chillin, you earned it",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "weekSus",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"soda-groove",
+			"cg",
+			[
+				38,
+				41,
+				167
+			]
+		]
+	],
+	"weekCharacters": [
+		"cassettegirl-alt",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "weekCG"
+}

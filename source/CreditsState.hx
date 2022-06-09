@@ -81,6 +81,18 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['VSDaniel Test Mod'],
+			['Justin',			'use',					'Main coder - via trial and error',							'',										'444444'],
+			['Eduardo',			'null',					'Additional coding - base that was built upon - legend',	'',										'C30085'],
+			[''],
+			['People/Mods\'s Assets Borrowed'],
+			['Mong',						'mong',		'Director of the Cassette Girl mod',						'https://gamebanana.com/mods/339085',	'444444'],
+			['V.S. Whitty - D.E',			'null',		'Where Julian came from - Sock.clip likely the creator?',	'https://gamebanana.com/mods/354884',	'C30085'],
+			['yalishenkjor',				'null',		'Creator of the Allegro mod - underrated as hell',			'https://gamebanana.com/mods/314982',	'444444'],
+			['ovo',							'null',		'Where remaster assets for Allegro came from',				'https://gamebanana.com/mods/356962',	'C30085'],
+			['Saruky',					'saruky',		'Dev of Hotline 024 - talented with music (Soda/Sussy)',	'https://twitter.com/saruky__?lang=en',	'444444'],
+			['ImaginationSuperHero52806','savior',		'Creator of the Strum line event in Finale - My savior',	'https://gamebanana.com/tools/8756',	'C30085'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],

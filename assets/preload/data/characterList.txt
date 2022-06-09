@@ -29,3 +29,6 @@ julian_swag
 julian_wacky
 julian_wacky_swag
 cgalt
+bf_glow
+bf-CG
+nikku-3d

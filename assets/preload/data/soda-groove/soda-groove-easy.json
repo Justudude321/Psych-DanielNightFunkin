@@ -2497,6 +2497,7 @@
 		],
 		"player3": null,
 		"song": "soda groove",
+		"uiType": "easy",
 		"stage": "cgstage",
 		"needsVoices": true,
 		"validScore": true,

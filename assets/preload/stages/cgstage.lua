@@ -20,16 +20,6 @@ function onCreate()
     setScrollFactor('barbot',0,0)
     setObjectCamera('barbot','hud')
 
-    -- makeLuaSprite('glow', '15', -50, 0);
-	-- setScrollFactor('glow',0,0);
-    -- addLuaSprite('glow', false);
-    -- makeLuaSprite('glow2', '52', -50, 0);
-	-- setScrollFactor('glow2',0,0);
-    -- addLuaSprite('glow2', false);
-    -- makeLuaSprite('glow3', 'BGLAYER', -50, 0);
-	-- setScrollFactor('glow3',0,0);
-    -- addLuaSprite('glow3', false);
-
     makeAnimatedLuaSprite('bops','bopper1', -40, 150)
         addAnimationByPrefix('bops','bopper1','',12,true);
     	objectPlayAnimation('bops','bopper1',true);
@@ -49,5 +39,10 @@ function onCreate()
     scaleLuaSprite('night',1.3,1.3)
     scaleLuaSprite('bops',1.3,1.3)
     scaleLuaSprite('bops2',1.3,1.3)
-
+    
+    makeLuaSprite('glow', 'BGLAYER', -500, -200);
+	setScrollFactor('glow',0,0);
+    addLuaSprite('glow', false);
+    scaleLuaSprite('glow',1.3,1.3)
+    
 end

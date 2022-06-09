@@ -8399,6 +8399,7 @@
 		"events": [],
 		"player3": null,
 		"song": "sussy",
+		"uiType": "normal",
 		"validScore": true,
 		"needsVoices": true,
 		"arrowSkin": "",
