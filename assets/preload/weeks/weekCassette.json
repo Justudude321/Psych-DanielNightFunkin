@@ -3,14 +3,18 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "philly",
-	"weekBefore": "weekSus",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": true,
-	"hideStoryMode": true,
+	"weekBefore": "weekSus",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"cassettegirl-alt",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
 			"soda-groove",
@@ -22,11 +26,7 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"cassettegirl-alt",
-		"bf",
-		"gf"
-	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "weekCG"
+	"hideStoryMode": true,
+	"weekName": "weekCG",
+	"hiddenUntilUnlocked": true
 }
