@@ -1,16 +1,16 @@
 {
 	"storyName": "just chillin, you earned it",
 	"difficulties": "",
-	"hideFreeplay": true,
+	"hideFreeplay": false,
 	"weekBackground": "philly",
-	"weekBefore": "weekSus",
+	"weekBefore": "weekCassette",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
 	"startUnlocked": false,
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"soda-groove",
@@ -28,5 +28,5 @@
 		"gf"
 	],
 	"hiddenUntilUnlocked": true,
-	"weekName": "weekCG"
+	"weekName": "weekCGReal"
 }

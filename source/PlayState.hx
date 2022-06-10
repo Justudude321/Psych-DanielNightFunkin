@@ -4562,7 +4562,7 @@ class PlayState extends MusicBeatState
 							unlock = true;
 						}
 					case 'just_chillin':
-						if(Paths.formatToSongPath(SONG.song) == 'soda-groove'){
+						if(Paths.formatToSongPath(SONG.song) == 'soda-groove' && CoolUtil.difficultyString() == 'HARD'){
 							unlock = true;
 						}
 					case '100%':
