@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="picoo.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="picoo dies00000" x="0" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00001" x="0" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00002" x="471" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00003" x="942" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00004" x="942" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00005" x="1413" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00006" x="1413" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00007" x="1884" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00008" x="2355" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00009" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00010" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00011" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00012" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00013" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00014" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00015" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00016" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00017" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00018" x="2826" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00019" x="3297" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00020" x="3297" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00021" x="3768" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00022" x="3768" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00023" x="4239" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00024" x="4239" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00025" x="4710" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00026" x="4710" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00027" x="4710" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00028" x="5181" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00029" x="5181" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00030" x="5652" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00031" x="5652" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00032" x="6123" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00033" x="6594" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00034" x="6594" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00035" x="7065" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00036" x="7065" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00037" x="7536" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00038" x="7536" y="0" width="471" height="502"/>
+	<SubTexture name="picoo dies00039" x="0" y="502" width="471" height="502"/>
+	<SubTexture name="picoo dies00040" x="0" y="502" width="471" height="502"/>
+	<SubTexture name="picoo dies00041" x="471" y="502" width="471" height="502"/>
+	<SubTexture name="picoo dies00042" x="471" y="502" width="471" height="502"/>
+	<SubTexture name="picoo dies00043" x="471" y="502" width="471" height="502"/>
+	<SubTexture name="picoo dies00044" x="471" y="502" width="471" height="502"/>
+	<SubTexture name="picoo dies00045" x="471" y="502" width="471" height="502"/>
+	<SubTexture name="picoo dead loop10000" x="942" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10001" x="1396" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10002" x="1850" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10003" x="2304" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10004" x="2758" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10005" x="3212" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10006" x="3666" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10007" x="4120" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10008" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10009" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10010" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10011" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10012" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10013" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10014" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10015" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo dead loop10016" x="4574" y="502" width="454" height="474"/>
+	<SubTexture name="picoo confirm30000" x="5028" y="502" width="454" height="521"/>
+	<SubTexture name="picoo confirm30001" x="5482" y="502" width="454" height="521"/>
+	<SubTexture name="picoo confirm30002" x="5936" y="502" width="454" height="521"/>
+	<SubTexture name="picoo confirm30003" x="6390" y="502" width="454" height="521"/>
+	<SubTexture name="picoo confirm30004" x="6844" y="502" width="454" height="521"/>
+	<SubTexture name="picoo confirm30005" x="7298" y="502" width="454" height="521"/>
+	<SubTexture name="picoo confirm30006" x="0" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30007" x="454" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30008" x="908" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30009" x="1362" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30010" x="1816" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30011" x="2270" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30012" x="2724" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30013" x="3178" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30014" x="3632" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30015" x="4086" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30016" x="4540" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30017" x="4994" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30018" x="5448" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30019" x="5902" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30020" x="6356" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30021" x="6356" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30022" x="6356" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30023" x="6810" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30024" x="6810" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30025" x="6810" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30026" x="6810" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30027" x="6810" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo confirm30028" x="6810" y="1023" width="454" height="521"/>
+	<SubTexture name="picoo down0000" x="7264" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0001" x="7264" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0002" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0003" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0004" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0005" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0006" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0007" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0008" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0009" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0010" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0011" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0012" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo down0013" x="7654" y="1023" width="390" height="359"/>
+	<SubTexture name="picoo idle0000" x="0" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0001" x="0" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0002" x="460" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0003" x="460" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0004" x="920" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0005" x="920" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0006" x="1380" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0007" x="1380" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0008" x="1840" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0009" x="1840" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0010" x="1840" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0011" x="1840" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0012" x="1840" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo idle0013" x="1840" y="1544" width="460" height="407"/>
+	<SubTexture name="picoo left0000" x="2300" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0001" x="2300" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0002" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0003" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0004" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0005" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0006" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0007" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0008" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0009" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0010" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0011" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0012" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo left0013" x="2748" y="1544" width="448" height="412"/>
+	<SubTexture name="picoo missdown0000" x="3196" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0001" x="3196" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0002" x="3585" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0003" x="3585" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0004" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0005" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0006" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0007" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0008" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0009" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0010" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0011" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0012" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missdown0013" x="3974" y="1544" width="389" height="359"/>
+	<SubTexture name="picoo missleft0000" x="4363" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0001" x="4363" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0002" x="4829" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0003" x="4829" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0004" x="5295" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0005" x="5295" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0006" x="5295" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0007" x="5295" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0008" x="5295" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0009" x="5295" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missleft0010" x="5295" y="1544" width="466" height="412"/>
+	<SubTexture name="picoo missright0000" x="5761" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missright0001" x="5761" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missright0002" x="6090" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missright0003" x="6090" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missright0004" x="6419" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missright0005" x="6419" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missright0006" x="6419" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missright0007" x="6419" y="1544" width="329" height="412"/>
+	<SubTexture name="picoo missup0000" x="6748" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0001" x="6748" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0002" x="7164" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0003" x="7164" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0004" x="7580" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0005" x="7580" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0006" x="7580" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0007" x="7580" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0008" x="7580" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo missup0009" x="7580" y="1544" width="416" height="433"/>
+	<SubTexture name="picoo right0000" x="0" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0001" x="0" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0002" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0003" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0004" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0005" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0006" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0007" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0008" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0009" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0010" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0011" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0012" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo right0013" x="325" y="1977" width="325" height="410"/>
+	<SubTexture name="picoo up0000" x="650" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0001" x="650" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0002" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0003" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0004" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0005" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0006" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0007" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0008" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0009" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0010" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0011" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0012" x="1064" y="1977" width="414" height="429"/>
+	<SubTexture name="picoo up0013" x="1064" y="1977" width="414" height="429"/>
+</TextureAtlas>
