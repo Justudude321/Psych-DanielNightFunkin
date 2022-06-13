@@ -5,7 +5,7 @@ function onCreate()
 
 		if n == 'Play Animation' and v1 == 'letsgo' and v2 == 'darnell' then
 		
-		setProperty("defaultCamZoom",0.8)
+		setProperty("defaultCamZoom",0.9)
 
 		end
 
