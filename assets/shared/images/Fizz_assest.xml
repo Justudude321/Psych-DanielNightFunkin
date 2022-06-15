@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Fizz_assest.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Fizz0000" x="0" y="0" width="410" height="553" pivotX="212" pivotY="324" frameX="0" frameY="-14" frameWidth="410" frameHeight="567"/>
+	<SubTexture name="Fizz0001" x="0" y="0" width="410" height="553" frameX="0" frameY="-14" frameWidth="410" frameHeight="567"/>
+	<SubTexture name="Fizz0002" x="410" y="0" width="396" height="563" frameX="-7" frameY="-4" frameWidth="410" frameHeight="567"/>
+	<SubTexture name="Fizz0003" x="410" y="0" width="396" height="563" frameX="-7" frameY="-4" frameWidth="410" frameHeight="567"/>
+	<SubTexture name="Fizz0004" x="806" y="0" width="390" height="567" frameX="-10" frameY="0" frameWidth="410" frameHeight="567"/>
+	<SubTexture name="Fizz0005" x="806" y="0" width="390" height="567" frameX="-10" frameY="0" frameWidth="410" frameHeight="567"/>
+	<SubTexture name="Fizz0006" x="806" y="0" width="390" height="567" frameX="-10" frameY="0" frameWidth="410" frameHeight="567"/>
+	<SubTexture name="Fizz0007" x="806" y="0" width="390" height="567" frameX="-10" frameY="0" frameWidth="410" frameHeight="567"/>
+</TextureAtlas>

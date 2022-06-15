@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Jester_assest.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jester0000" x="0" y="0" width="602" height="932" pivotX="309" pivotY="466" frameX="-8" frameY="-32" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0001" x="0" y="0" width="602" height="932" frameX="-8" frameY="-32" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0002" x="602" y="0" width="590" height="961" frameX="-14" frameY="-4" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0003" x="602" y="0" width="590" height="961" frameX="-14" frameY="-4" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0004" x="1192" y="0" width="577" height="966" frameX="-20" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0005" x="1769" y="0" width="577" height="966" frameX="-20" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0006" x="2346" y="0" width="577" height="966" frameX="-20" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0007" x="2346" y="0" width="577" height="966" frameX="-20" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0008" x="2346" y="0" width="577" height="966" frameX="-20" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0009" x="2923" y="0" width="602" height="932" frameX="0" frameY="-32" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0010" x="2923" y="0" width="602" height="932" frameX="0" frameY="-32" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0011" x="0" y="966" width="590" height="961" frameX="-6" frameY="-4" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0012" x="0" y="966" width="590" height="961" frameX="-6" frameY="-4" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0013" x="590" y="966" width="590" height="966" frameX="-6" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0014" x="1180" y="966" width="590" height="966" frameX="-6" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0015" x="1180" y="966" width="590" height="966" frameX="-6" frameY="0" frameWidth="610" frameHeight="966"/>
+	<SubTexture name="Jester0016" x="1180" y="966" width="590" height="966" frameX="-6" frameY="0" frameWidth="610" frameHeight="966"/>
+</TextureAtlas>

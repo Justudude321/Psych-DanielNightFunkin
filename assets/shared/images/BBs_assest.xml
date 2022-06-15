@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BBs_assest.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BB_Guy0000" x="0" y="0" width="692" height="731" pivotX="353.3" pivotY="462.7" frameX="0" frameY="-2" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0001" x="0" y="0" width="692" height="731" frameX="0" frameY="-2" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0002" x="692" y="0" width="674" height="731" frameX="-12" frameY="-2" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0003" x="692" y="0" width="674" height="731" frameX="-12" frameY="-2" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0004" x="1366" y="0" width="661" height="733" frameX="-20" frameY="0" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0005" x="1366" y="0" width="661" height="733" frameX="-20" frameY="0" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0006" x="0" y="733" width="658" height="729" frameX="-23" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0007" x="0" y="733" width="658" height="729" frameX="-23" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0008" x="658" y="733" width="658" height="729" frameX="-24" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0009" x="658" y="733" width="658" height="729" frameX="-24" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0010" x="658" y="733" width="658" height="729" frameX="-24" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0011" x="658" y="733" width="658" height="729" frameX="-24" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0012" x="658" y="733" width="658" height="729" frameX="-24" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0013" x="658" y="733" width="658" height="729" frameX="-24" frameY="-4" frameWidth="692" frameHeight="733"/>
+	<SubTexture name="BB_Guy0014" x="658" y="733" width="658" height="729" frameX="-24" frameY="-4" frameWidth="692" frameHeight="733"/>
+</TextureAtlas>

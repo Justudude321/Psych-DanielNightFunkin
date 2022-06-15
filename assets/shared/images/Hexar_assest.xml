@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Hexar_assest.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hexer0000" x="10" y="10" width="534" height="583" pivotX="265" pivotY="295" frameX="0" frameY="-10" frameWidth="534" frameHeight="593"/>
+	<SubTexture name="Hexer0001" x="10" y="10" width="534" height="583" frameX="0" frameY="-10" frameWidth="534" frameHeight="593"/>
+	<SubTexture name="Hexer0002" x="554" y="10" width="520" height="590" frameX="-7" frameY="-3" frameWidth="534" frameHeight="593"/>
+	<SubTexture name="Hexer0003" x="554" y="10" width="520" height="590" frameX="-7" frameY="-3" frameWidth="534" frameHeight="593"/>
+	<SubTexture name="Hexer0004" x="1084" y="10" width="515" height="593" frameX="-10" frameY="0" frameWidth="534" frameHeight="593"/>
+	<SubTexture name="Hexer0005" x="1084" y="10" width="515" height="593" frameX="-10" frameY="0" frameWidth="534" frameHeight="593"/>
+	<SubTexture name="Hexer0006" x="1084" y="10" width="515" height="593" frameX="-10" frameY="0" frameWidth="534" frameHeight="593"/>
+	<SubTexture name="Hexer0007" x="1084" y="10" width="515" height="593" frameX="-10" frameY="0" frameWidth="534" frameHeight="593"/>
+</TextureAtlas>

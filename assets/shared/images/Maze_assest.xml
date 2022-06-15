@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Maze_assest.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Maze_Guy0000" x="0" y="0" width="545" height="823" pivotX="290.1" pivotY="514.5" frameX="-20" frameY="0" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0001" x="0" y="0" width="545" height="823" frameX="-20" frameY="0" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0002" x="545" y="0" width="546" height="818" frameX="-11" frameY="-5" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0003" x="545" y="0" width="546" height="818" frameX="-11" frameY="-5" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0004" x="545" y="0" width="546" height="818" frameX="-11" frameY="-5" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0005" x="1091" y="0" width="541" height="811" frameX="-7" frameY="-13" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0006" x="1091" y="0" width="541" height="811" frameX="-7" frameY="-13" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0007" x="1091" y="0" width="541" height="811" frameX="-7" frameY="-13" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0008" x="0" y="823" width="542" height="808" frameX="0" frameY="-16" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0009" x="0" y="823" width="542" height="808" frameX="0" frameY="-16" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0010" x="542" y="823" width="542" height="809" frameX="0" frameY="-15" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0011" x="542" y="823" width="542" height="809" frameX="0" frameY="-15" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0012" x="542" y="823" width="542" height="809" frameX="0" frameY="-15" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0013" x="1084" y="823" width="542" height="811" frameX="0" frameY="-13" frameWidth="565" frameHeight="824"/>
+	<SubTexture name="Maze_Guy0014" x="1084" y="823" width="542" height="811" frameX="0" frameY="-13" frameWidth="565" frameHeight="824"/>
+</TextureAtlas>

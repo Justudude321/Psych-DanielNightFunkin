@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wassabi_assest.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Wassabi0000" x="10" y="10" width="711" height="603" pivotX="391" pivotY="329" frameX="0" frameY="-52" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0001" x="10" y="10" width="711" height="603" frameX="0" frameY="-52" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0002" x="731" y="10" width="687" height="615" frameX="-12" frameY="-40" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0003" x="731" y="10" width="687" height="615" frameX="-12" frameY="-40" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0004" x="10" y="635" width="680" height="652" frameX="-16" frameY="-4" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0005" x="700" y="635" width="680" height="656" frameX="-16" frameY="0" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0006" x="700" y="635" width="680" height="656" frameX="-16" frameY="0" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0007" x="700" y="635" width="680" height="656" frameX="-16" frameY="0" frameWidth="711" frameHeight="656"/>
+	<SubTexture name="Wassabi0008" x="700" y="635" width="680" height="656" frameX="-16" frameY="0" frameWidth="711" frameHeight="656"/>
+</TextureAtlas>
