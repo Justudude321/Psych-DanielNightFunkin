@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"promenade",
+			"niku2",
+			[
+				255,
+				0,
+				175
+			]
+		],
+		[
+			"soda-groove",
+			"cg",
+			[
+				38,
+				41,
+				167
+			]
+		],
+		[
+			"joyous",
+			"carol",
+			[
+				120,
+				120,
+				170
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"storyName": "Rose - lady's night out",
+	"weekName": "Rose",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "Daniel",
+	"startUnlocked": false
+}
