@@ -11,7 +11,7 @@ function onCreate()
     
     -- additions
     makeLuaSprite('bartop','',0,-30)
-    makeGraphic('bartop',1280,100,'000000')
+    makeGraphic('bartop',1280,80,'000000')
     addLuaSprite('bartop',true)
     setObjectCamera('bartop','hud')
     setScrollFactor('bartop',0,0)

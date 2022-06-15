@@ -1,6 +1,6 @@
 endstops = 0
 function onEvent(n,v1,v2)
-if n == 'Change Character' and v2 == 'bf_swag' then
+if n == 'Change Character' and v2 == 'bf-swag' then
 
 	setProperty('stagefront.visible',false)
 	setProperty('stageback.visible',false)

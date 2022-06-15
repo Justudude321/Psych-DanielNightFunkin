@@ -16,7 +16,7 @@ function onCreate()
 
     setProperty('defaultCamZoom',0.5)
     makeLuaSprite('bartop','',0,-30)
-    makeGraphic('bartop',1280,100,'000000')
+    makeGraphic('bartop',1280,80,'000000')
     addLuaSprite('bartop',true)
     setObjectCamera('bartop','hud')
     setScrollFactor('bartop',0,0)
@@ -30,6 +30,8 @@ function onCreate()
     addLuaSprite('barbot',true)
     setScrollFactor('barbot',0,0)
     setObjectCamera('barbot','hud')
+
+    setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-shine');
 end
 
 function onUpdate(elapsed)

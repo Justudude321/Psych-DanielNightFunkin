@@ -1,17 +1,14 @@
 
-function onCreate()
+function onEvent(n,v1,v2)
 
-	function onEvent(n,v1,v2)
-
-		if n == 'Play Animation' and v1 == 'letsgo' and v2 == 'darnell' then
+	if n == 'Play Animation' and v1 == 'letsgo' and v2 == 'darnell' then
 		
-		setProperty("defaultCamZoom",0.9)
-
-		end
+	setProperty("defaultCamZoom",0.9)
 
 	end
 
 end
+
 function onUpdate()
 
 	if curBeat == 32 then

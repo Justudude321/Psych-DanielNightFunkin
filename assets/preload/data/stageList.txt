@@ -11,3 +11,5 @@ alley-swag
 alley
 beatCity
 cgstage
+NG
+hall
