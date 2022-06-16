@@ -14,6 +14,8 @@ local del = 0;
 local del2 = 0;
 function onCreate()
 
+    setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-shine');
+
     setProperty('defaultCamZoom',0.5)
     makeLuaSprite('bartop','',0,-30)
     makeGraphic('bartop',1280,80,'000000')
@@ -31,7 +33,8 @@ function onCreate()
     setScrollFactor('barbot',0,0)
     setObjectCamera('barbot','hud')
 
-    setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-shine');
+    precacheImage('beatCity');
+	
 end
 
 function onUpdate(elapsed)

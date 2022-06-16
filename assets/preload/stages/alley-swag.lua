@@ -36,6 +36,8 @@ function onCreate()
 	addLuaSprite('stageback', false);
 	addLuaSprite('stagefront', false);
 
+    precacheImage('alley_swag_wall');
+	precacheImage('alley_swag_ground');
 
 end
 

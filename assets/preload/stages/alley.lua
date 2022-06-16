@@ -51,8 +51,12 @@ function onCreate()
 	makeLuaSprite('jackettt', 'jacket', 450, 400);
 	setProperty('jackettt.visible',false)
 	addLuaSprite('jackettt', true);
-    
 
+    precacheImage('alley_swag_wall');
+	precacheImage('alley_swag_ground');
+	precacheImage('alleywall');
+    precacheImage('alleyground');
+	precacheImage('jacket');
 	
 	--close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end

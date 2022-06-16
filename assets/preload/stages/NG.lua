@@ -41,4 +41,10 @@ function onCreate()
     addLuaSprite('BG5', false);
     setScrollFactor('BG5',1.0,1.0);
 
+    precacheImage('april_bg_1');
+	precacheImage('april_bg_2');
+	precacheImage('april_bg_3');
+	precacheImage('april_bg_4');
+    precacheImage('april_bg_5');
+
 end

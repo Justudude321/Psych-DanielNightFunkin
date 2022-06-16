@@ -61,7 +61,16 @@ function onCreate()
     addLuaSprite('WassabiSoja', false);
     scaleLuaSprite('Whitty',0.75,0.75)
     scaleLuaSprite('WassabiSoja',0.85,0.85)
-	
+
+	precacheImage('BBs_assest');
+	precacheImage('Fizz_assest');
+	precacheImage('Hexar_assest');
+    precacheImage('Jester_assest');
+	precacheImage('Maze_assest');
+	precacheImage('WassabiSoja_assest');
+    precacheImage('Whitty_assest');
+	precacheImage('Carols_house1');
+	precacheImage('Carols_house2');
 
 end
 

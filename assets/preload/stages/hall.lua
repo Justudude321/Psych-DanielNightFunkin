@@ -16,6 +16,8 @@ function onCreate()
 	makeLuaSprite('hall', 'NikusaBG', -1000, -425);
 	addLuaSprite('hall', false);
 
+    precacheImage('NikusaBG');
+
 end
 
 -- -350 + Math.sin((Conductor.songPosition / 1000) * (Conductor.bpm / 60) * 1.5) * 12.5;

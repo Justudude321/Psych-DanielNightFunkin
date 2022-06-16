@@ -32,17 +32,21 @@ function onCreate()
         addAnimationByPrefix('night','CGBG','',6,true);
     	objectPlayAnimation('night','CGBG',true);
 	setLuaSpriteScrollFactor('night', 1.0, 1.0);
+    makeLuaSprite('glow', 'BGLAYER', -500, -200);
+	setScrollFactor('glow',0,0);
 
     addLuaSprite('night', false);
     addLuaSprite('bops', false);
 	addLuaSprite('bops2', false);
+    addLuaSprite('glow', false);
     scaleLuaSprite('night',1.3,1.3)
     scaleLuaSprite('bops',1.3,1.3)
     scaleLuaSprite('bops2',1.3,1.3)
-    
-    makeLuaSprite('glow', 'BGLAYER', -500, -200);
-	setScrollFactor('glow',0,0);
-    addLuaSprite('glow', false);
     scaleLuaSprite('glow',1.3,1.3)
+
+    precacheImage('bopper1');
+	precacheImage('bopper2');
+	precacheImage('CGBG');
+	precacheImage('BGLAYER');
     
 end

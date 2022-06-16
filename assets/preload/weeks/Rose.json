@@ -1,4 +1,20 @@
 {
+	"storyName": "Rose - lady's night out",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "Daniel",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
 			"promenade",
@@ -10,12 +26,12 @@
 			]
 		],
 		[
-			"soda-groove",
-			"cg",
+			"kagayaku-kassetto",
+			"cgB",
 			[
-				38,
-				41,
-				167
+				90,
+				100,
+				255
 			]
 		],
 		[
@@ -28,23 +44,7 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "philly",
-	"difficulties": "",
-	"weekCharacters": [
-		"",
-		"bf",
-		"gf"
-	],
-	"storyName": "Rose - lady's night out",
-	"weekName": "Rose",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
 	"hideStoryMode": false,
-	"weekBefore": "Daniel",
-	"startUnlocked": false
+	"weekName": "Rose",
+	"hiddenUntilUnlocked": false
 }

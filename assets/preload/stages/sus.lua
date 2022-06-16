@@ -36,6 +36,10 @@ function onCreate()
     addLuaSprite('barbot',true)
     setScrollFactor('barbot',0,0)
     setObjectCamera('barbot','hud')
+
+    precacheImage('SUS1');
+	precacheImage('SUS2');
+	precacheImage('SUS3');
 end
 
 function onUpdate(elapsed)
