@@ -16,7 +16,7 @@ class Achievements {
 		["That's all folks?",			"Complete story mode",								'storytime',			false],
 		["Having Fun?",					"Hit a total of 100 gimmick notes",					'bruh',					false],
 		["Pretty Neat right?",			"Beat the secret song on hard",						'just_chillin',			false],
-		["Completionist",				"Get all achievements (From this mod)",				'100%',					false],
+		["Completionist",				"Get all achievements (From this mod)",				'100p',					false],
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
 		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",	'ur_bad',				false],
 		["Perfectionist",				"Complete a Song with a rating of 100%.",			'ur_good',				false],

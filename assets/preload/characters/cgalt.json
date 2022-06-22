@@ -60,7 +60,7 @@
 	"image": "characters/cassettegirl-alt",
 	"position": [
 		0,
-		160
+		50
 	],
 	"healthicon": "cg",
 	"flip_x": false,

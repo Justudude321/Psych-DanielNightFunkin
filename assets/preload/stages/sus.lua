@@ -20,16 +20,16 @@ function onCreate()
     setObjectCamera('bartop','hud')
     setScrollFactor('bartop',0,0)
 
-    makeLuaSprite('moon', 'SUS1', -300, -190);
-	setScrollFactor('moon',0,0);
-	makeLuaSprite('hall', 'SUS2', -340, -305);
-	setScrollFactor('hall', 0, 0);
-    makeLuaSprite('curves', 'SUS3', -350, -480);
-	setScrollFactor('curves', 0, 0);
+    makeLuaSprite('moon', 'SUS1', -10, 120);
+	setScrollFactor('moon',1.0,1.0);
+	makeLuaSprite('hall', 'SUS2', -10, 5);
+	setScrollFactor('hall', 1.0, 1.0);
+    makeLuaSprite('wires', 'SUS3', -25, -10);
+	setScrollFactor('wires', 1.0, 1.0);
 
     addLuaSprite('moon', false);
 	addLuaSprite('hall', false);
-	addLuaSprite('curves', false);
+	addLuaSprite('wires', false);
 
     makeLuaSprite('barbot','',0,650)
     makeGraphic('barbot',1280,100,'000000')

@@ -3181,7 +3181,7 @@ class PlayState extends MusicBeatState
 			var achieve:String = checkForAchievement(['week1_nomiss', 'week2_nomiss', 'week3_nomiss', 'week4_nomiss',
 				'week5_nomiss', 'week6_nomiss', 'week7_nomiss', 'ur_bad',
 				'ur_good', 'hype', 'two_keys', 'toastie', 'debugger', 
-				'beginner','failure','storytime', 'bruh', 'just_chillin', '100%']);
+				'beginner','failure','storytime', 'bruh', 'just_chillin', '100p']);
 
 			if(achieve != null) {
 				startAchievement(achieve);
@@ -4566,7 +4566,7 @@ class PlayState extends MusicBeatState
 						if(weekName == 'weekCassetteReal' && Paths.formatToSongPath(SONG.song) == 'soda-groove' && CoolUtil.difficultyString() == 'HARD'){
 							unlock = true;
 						}
-					case '100%':
+					case '100p':
 						
 						if(Achievements.isAchievementUnlocked('just_chillin') && Achievements.isAchievementUnlocked('bruh') && Achievements.isAchievementUnlocked('failure')){
 							unlock = true;

@@ -60,10 +60,10 @@
 				-42,
 				190
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "slaps",
-			"loop": false,
+			"indices": [],
 			"name": "slaps"
 		}
 	],
@@ -71,7 +71,7 @@
 	"image": "characters/CG_Assets",
 	"position": [
 		40,
-		380
+		360
 	],
 	"healthicon": "cgB",
 	"flip_x": false,

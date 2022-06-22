@@ -14,28 +14,30 @@ function onCreate()
     setScrollFactor('barbot',0,0)
     setObjectCamera('barbot','hud')
 
-	makeLuaSprite('cyber', 'uhh', -500, -250);
+	--uhh
+
+	makeLuaSprite('cyber', 'uhh', -500, -290);
 	setScrollFactor('cyber', 0.5, 0.5);
 	addLuaSprite('cyber', false);
 
 	
-	makeLuaSprite('floor', 'ground', -250, -150);
+	makeLuaSprite('floor', 'ground', -250, -220);
 	setScrollFactor('floor', 0.9, 0.9);
 	addLuaSprite('floor', false);
 
-	makeAnimatedLuaSprite('daPeeps', 'CG_bops', -370,300)
+	makeAnimatedLuaSprite('daPeeps', 'CG_bops', -370,260)
 	addAnimationByPrefix('daPeeps', 'bounce', 'bops', 24)
 	addLuaSprite('daPeeps',false)
 	objectPlayAnimation('daPeeps', 'bounce',false)
 
 	if not lowQuality then
-		makeLuaSprite('roof', 'thing roof', -300, -100);
+		makeLuaSprite('roof', 'thing roof', -300, -140);
 		setScrollFactor('roof', 0.9, 0.9);
 		addLuaSprite('roof', false);
 	end
 
 	if not lowQuality then
-		makeAnimatedLuaSprite('rainDrop', 'rain', -510,-300)
+		makeAnimatedLuaSprite('rainDrop', 'rain', -510,-340)
 		addAnimationByPrefix('rainDrop', 'bounce', 'rain tho',48,true)
 		addLuaSprite('rainDrop',true)
 		objectPlayAnimation('rainDrop', 'bounce',false)
@@ -45,7 +47,7 @@ function onCreate()
 	end
 
 	if not lowQuality then
-		makeLuaSprite('rainEffect', 'droplets', -100, -100);
+		makeLuaSprite('rainEffect', 'droplets', -100, -140);
 		setScrollFactor('rainEffect', 0.9, 0.9);
 		addLuaSprite('rainEffect', true);
 		setScrollFactor('rainEffect', 0, 0);

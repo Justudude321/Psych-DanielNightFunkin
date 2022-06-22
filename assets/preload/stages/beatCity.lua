@@ -23,8 +23,8 @@ function onCreate()
     setObjectCamera('bartop','hud')
     setScrollFactor('bartop',0,0)
     
-    makeLuaSprite('city', 'beatCity', -700, -550);
-	setScrollFactor('city',0,0);
+    makeLuaSprite('city', 'beatCity', -350, -225);
+	setScrollFactor('city',1.0,1.0);
     addLuaSprite('city', false);
 
     makeLuaSprite('barbot','',0,650)

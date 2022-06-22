@@ -20,19 +20,19 @@ function onCreate()
     setScrollFactor('barbot',0,0)
     setObjectCamera('barbot','hud')
 
-    makeAnimatedLuaSprite('bops','bopper1', -40, 150)
+    makeAnimatedLuaSprite('bops','bopper1', -40, 75)
         addAnimationByPrefix('bops','bopper1','',12,true);
     	objectPlayAnimation('bops','bopper1',true);
 	setLuaSpriteScrollFactor('bops', 1.0, 1.0);
-   	makeAnimatedLuaSprite('bops2','bopper2', -210, 150)
+   	makeAnimatedLuaSprite('bops2','bopper2', -210, 75)
         addAnimationByPrefix('bops2','bopper2','',12,true);
     	objectPlayAnimation('bops2','bopper2',true);
 	setLuaSpriteScrollFactor('bops2', 1.0, 1.0);
-    makeAnimatedLuaSprite('night','CGBG', -925, -950)
+    makeAnimatedLuaSprite('night','CGBG', -925, -1075)
         addAnimationByPrefix('night','CGBG','',6,true);
     	objectPlayAnimation('night','CGBG',true);
 	setLuaSpriteScrollFactor('night', 1.0, 1.0);
-    makeLuaSprite('glow', 'BGLAYER', -500, -200);
+    makeLuaSprite('glow', 'BGLAYER', -500, -325);
 	setScrollFactor('glow',0,0);
 
     addLuaSprite('night', false);
