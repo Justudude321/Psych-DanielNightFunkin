@@ -14,7 +14,13 @@ local del = 0;
 local del2 = 0;
 function onCreate()
 
-    setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-shine');
+    setPropertyFromClass('GameOverSubstate', 'characterName', 'daniel-shine');
+
+    setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'fnf_loss_sfx2'); --First death
+	
+	setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'gameOver2'); --Death loop
+	
+	setPropertyFromClass('GameOverSubstate', 'endSoundName', 'gameOverEnd2'); --Retry Confirm
 
     setProperty('defaultCamZoom',0.5)
     makeLuaSprite('bartop','',0,-30)

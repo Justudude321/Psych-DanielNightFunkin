@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "daniel-test",
 		"events": [
 			[
 				0,
@@ -738,7 +738,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf-swag"
+						"daniel-swag"
 					]
 				]
 			],
@@ -1128,7 +1128,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf"
+						"daniel-test"
 					]
 				]
 			],
@@ -1398,7 +1398,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf-swag"
+						"daniel-swag"
 					]
 				]
 			],
@@ -1728,7 +1728,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf"
+						"daniel-test"
 					]
 				]
 			],

@@ -9,6 +9,14 @@ local del2 = 0;
 
 function onCreate()
 
+    setPropertyFromClass('GameOverSubstate', 'characterName', 'daniel-swag');
+    
+    setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'fnf_loss_sfx2'); --First death
+	
+	setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'gameOver2'); --Death loop
+	
+	setPropertyFromClass('GameOverSubstate', 'endSoundName', 'gameOverEnd2'); --Retry Confirm
+
     -- additions
     makeLuaSprite('bartop','',0,-30)
     makeGraphic('bartop',1280,80,'000000')

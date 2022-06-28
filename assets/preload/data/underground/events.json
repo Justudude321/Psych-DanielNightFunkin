@@ -2,7 +2,7 @@
 	"song": {
 		"speed": 2.9,
 		"stage": "alley",
-		"player1": "bf",
+		"player1": "daniel-test",
 		"player2": "julian",
 		"player3": null,
 		"events": [
@@ -772,7 +772,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf-swag"
+						"daniel-swag"
 					]
 				]
 			],
@@ -1162,7 +1162,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf"
+						"daniel-test"
 					]
 				]
 			],
@@ -1442,7 +1442,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf-swag"
+						"daniel-swag"
 					]
 				]
 			],
@@ -1772,7 +1772,7 @@
 					[
 						"Change Character",
 						"0",
-						"bf"
+						"daniel-test"
 					]
 				]
 			],
