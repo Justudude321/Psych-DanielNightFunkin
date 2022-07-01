@@ -8,7 +8,7 @@ import flixel.util.FlxColor;
 import flixel.text.FlxText;
 
 using StringTools;
-//blah
+
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
 		["Gotta start somewhere",       "Complete tutorial",								'beginner',				false],

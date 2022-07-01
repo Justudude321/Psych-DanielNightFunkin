@@ -1,154 +1,154 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				118,
 				10
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				-60
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-31,
 				35
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-25,
 				5
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				2,
 				-60
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "miss down",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "miss down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-41,
 				40
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "miss up",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "miss up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-23,
 				1
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "miss left",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "miss left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-16,
 				4
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "miss right",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "miss right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-27,
 				17
 			],
-			"anim": "firstDeath",
+			"loop": false,
 			"fps": 24,
-			"name": "dies",
-			"indices": []
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "dies"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-28,
 				16
 			],
-			"anim": "deathLoop",
+			"loop": true,
 			"fps": 24,
-			"name": "death loop",
-			"indices": []
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "death loop"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-28,
 				52
 			],
-			"anim": "deathConfirm",
+			"loop": false,
 			"fps": 24,
-			"name": "death confirm",
-			"indices": []
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "death confirm"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-1,
 				8
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "hey",
-			"indices": [],
-			"name": "hey"
+			"fps": 24,
+			"name": "hey",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Daniel-shine",
 	"position": [
-		0,
-		100
+		20,
+		120
 	],
 	"healthicon": "daniel-glow",
 	"flip_x": true,

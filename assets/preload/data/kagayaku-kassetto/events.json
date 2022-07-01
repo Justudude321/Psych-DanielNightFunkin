@@ -2,7 +2,7 @@
 	"song": {
 		"speed": 2.5,
 		"stage": "futureCity",
-		"player1": "bf-city",
+		"player1": "rose-test",
 		"player2": "CG",
 		"player3": null,
 		"events": [
