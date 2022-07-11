@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="finn and mordo-new.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fan down0000" x="10" y="10" width="636" height="636"/>
+	<SubTexture name="fan down0001" x="646" y="10" width="636" height="636"/>
+	<SubTexture name="fan left0000" x="1282" y="10" width="636" height="636"/>
+	<SubTexture name="fan left0001" x="1918" y="10" width="636" height="636"/>
+	<SubTexture name="fan right0000" x="2554" y="10" width="636" height="636"/>
+	<SubTexture name="fan right0001" x="3190" y="10" width="636" height="636"/>
+	<SubTexture name="fan up0000" x="3826" y="10" width="636" height="636"/>
+	<SubTexture name="fan up0001" x="4462" y="10" width="636" height="636"/>
+	<SubTexture name="idle0000" x="5098" y="10" width="636" height="636"/>
+	<SubTexture name="idle0001" x="5734" y="10" width="636" height="636"/>
+	<SubTexture name="idle0002" x="6370" y="10" width="636" height="636"/>
+	<SubTexture name="idle0003" x="7006" y="10" width="636" height="636"/>
+	<SubTexture name="idle0004" x="10" y="646" width="636" height="636"/>
+	<SubTexture name="idle0005" x="5098" y="10" width="636" height="636"/>
+	<SubTexture name="mordo down0000" x="646" y="646" width="636" height="636"/>
+	<SubTexture name="mordo down0001" x="1282" y="646" width="636" height="636"/>
+	<SubTexture name="mordo left0000" x="1918" y="646" width="636" height="636"/>
+	<SubTexture name="mordo left0001" x="2554" y="646" width="636" height="636"/>
+	<SubTexture name="mordo right0000" x="3190" y="646" width="636" height="636"/>
+	<SubTexture name="mordo right0001" x="3826" y="646" width="636" height="636"/>
+	<SubTexture name="mordo up0000" x="4462" y="646" width="636" height="636"/>
+	<SubTexture name="mordo up0001" x="5098" y="646" width="636" height="636"/>
+	<SubTexture name="together down0000" x="5734" y="646" width="636" height="636"/>
+	<SubTexture name="together down0001" x="6370" y="646" width="636" height="636"/>
+	<SubTexture name="together left0000" x="7006" y="646" width="636" height="636"/>
+	<SubTexture name="together left0001" x="10" y="1282" width="636" height="636"/>
+	<SubTexture name="together right0000" x="646" y="1282" width="636" height="636"/>
+	<SubTexture name="together right0001" x="1282" y="1282" width="636" height="636"/>
+	<SubTexture name="together up0000" x="1918" y="1282" width="636" height="636"/>
+	<SubTexture name="together up0001" x="2554" y="1282" width="636" height="636"/>
+</TextureAtlas>

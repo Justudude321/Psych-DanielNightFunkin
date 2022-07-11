@@ -1,5 +1,26 @@
 {
+	"storyName": "daniel - city battles galore",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
 	"songs": [
+		[
+			"moderato",
+			"allegro",
+			[
+				0,
+				225,
+				180
+			]
+		],
 		[
 			"underground",
 			"julian",
@@ -10,41 +31,20 @@
 			]
 		],
 		[
-			"finale",
-			"allegro",
-			[
-				0,
-				215,
-				180
-			]
-		],
-		[
-			"sussy",
+			"sussy-pussy",
 			"tomongus",
 			[
 				255,
-				133,
-				175
+				105,
+				110
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "philly",
-	"difficulties": "",
 	"weekCharacters": [
 		"",
 		"bf",
 		"gf"
 	],
-	"storyName": "daniel - city battles galore",
-	"weekName": "Daniel",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
-	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "Daniel"
 }

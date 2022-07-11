@@ -1,0 +1,234 @@
+{
+	"song": {
+		"speed": 3.2,
+		"stage": "halldark",
+		"player1": "bfspooky",
+		"player2": "sansmad",
+		"player3": null,
+		"events": [
+			[
+				32558.8235294118,
+				[
+					[
+						"Play Animation",
+						"Dad",
+						"eye"
+					]
+				]
+			],
+			[
+				33176.4705882353,
+				[
+					[
+						"Flash Camera",
+						"99999",
+						""
+					],
+					[
+						"Change Character",
+						"0",
+						"bfbattle"
+					],
+					[
+						"Change Character",
+						"2",
+						"sansbattle"
+					],
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					],
+					[
+						"Replace stage layer",
+						"battle",
+						"halldark"
+					],
+					[
+						"Set Cam Zoom",
+						"0.4",
+						"1"
+					]
+				]
+			],
+			[
+				33882.3529411765,
+				[
+					[
+						"Flash Camera",
+						"0.000000000000000000001",
+						""
+					],
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					]
+				]
+			],
+			[
+				78529.4117647058,
+				[
+					[
+						"Flash Camera",
+						"99999",
+						""
+					],
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					],
+					[
+						"Set Cam Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				79058.8235294117,
+				[
+					[
+						"Change Character",
+						"0",
+						"bfspooky"
+					],
+					[
+						"Replace stage layer",
+						"halldark",
+						"battle"
+					],
+					[
+						"Flash Camera",
+						"0.0000000000000000000000001",
+						""
+					],
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					]
+				]
+			],
+			[
+				101294.117647059,
+				[
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					],
+					[
+						"Flash Camera",
+						"99999",
+						""
+					],
+					[
+						"Change Character",
+						"0",
+						"bfbattle"
+					],
+					[
+						"Change Character",
+						"2",
+						"sansbattle"
+					],
+					[
+						"Replace stage layer",
+						"battle",
+						"halldark"
+					],
+					[
+						"Set Cam Zoom",
+						"0.4",
+						"1"
+					]
+				]
+			],
+			[
+				101647.058823529,
+				[
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					],
+					[
+						"Flash Camera",
+						"0.00000000000001",
+						""
+					]
+				]
+			],
+			[
+				123529.411764706,
+				[
+					[
+						"Flash Camera",
+						"99999",
+						""
+					],
+					[
+						"Change Character",
+						"0",
+						"bfspooky"
+					],
+					[
+						"Change Character",
+						"1",
+						"sansmad"
+					],
+					[
+						"Replace stage layer",
+						"halldark",
+						"battle"
+					],
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					],
+					[
+						"Set Cam Zoom",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				124235.294117647,
+				[
+					[
+						"Flash Camera",
+						"0.00000000000000000001",
+						""
+					],
+					[
+						"Play Sound",
+						"teleport",
+						"1"
+					]
+				]
+			],
+			[
+				135529.411764706,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 170,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Burning In Hell"
+	}
+}

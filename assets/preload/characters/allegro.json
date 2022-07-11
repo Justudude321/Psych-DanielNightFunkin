@@ -4,7 +4,7 @@
 			"loop": false,
 			"offsets": [
 				0,
-				0
+				190
 			],
 			"anim": "idle",
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				1
+				-2,
+				190
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -26,7 +26,18 @@
 			"loop": false,
 			"offsets": [
 				0,
-				0
+				190
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AL right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				190
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -37,41 +48,30 @@
 			"loop": false,
 			"offsets": [
 				0,
-				3
+				191
 			],
 			"anim": "singUP",
 			"fps": 24,
 			"name": "AL up",
 			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-1,
-				-1
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "AL right",
-			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/allegro",
+	"image": "characters/allegro2",
 	"position": [
 		0,
 		0
 	],
-	"healthicon": "allegro",
+	"healthicon": "icon-allegro",
 	"flip_x": false,
 	"healthbar_colors": [
-		176,
-		77,
-		120
+		167,
+		255,
+		196
 	],
 	"camera_position": [
-		0,
-		0
+		-80,
+		-200
 	],
 	"sing_duration": 4,
 	"scale": 1

@@ -1,0 +1,188 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"name": "Sans FNF instance ",
+			"indices": [
+				10000,
+				10001,
+				10002,
+				10003,
+				10004,
+				10005,
+				10006,
+				10007,
+				10008,
+				10009,
+				10010,
+				10011,
+				10012,
+				10013,
+				10014
+			]
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"name": "Sans FNF instance ",
+			"indices": [
+				10015,
+				10016,
+				10017,
+				10018,
+				10019,
+				10020,
+				10021,
+				10022,
+				10023,
+				10024,
+				10025,
+				10026,
+				10027,
+				10028,
+				10029,
+				10030
+			]
+		},
+		{
+			"offsets": [
+				47,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-15
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				29
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-20,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right instance 1"
+		},
+		{
+			"offsets": [
+				-15,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Sans FNF Tired instance 1"
+		},
+		{
+			"offsets": [
+				44,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Left Tired instance 1"
+		},
+		{
+			"offsets": [
+				-8,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Down Tired instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				30
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Up Tired instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				0
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Right Tired instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "eye",
+			"loop": false,
+			"name": "Snap to UT mode instance 1"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sans_Phase_3",
+	"position": [
+		0,
+		200
+	],
+	"healthicon": "sansmad",
+	"flip_x": false,
+	"healthbar_colors": [
+		174,
+		0,
+		1
+	],
+	"camera_position": [
+		30,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

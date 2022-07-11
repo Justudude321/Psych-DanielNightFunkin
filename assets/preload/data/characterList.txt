@@ -10,6 +10,7 @@ CG-GF
 CG
 cgalt
 dad
+dan
 daniel-scale
 daniel-shine
 daniel-swag
@@ -27,4 +28,5 @@ Nene
 nikku-3d
 niku
 picoo
+rose-test
 tomongus

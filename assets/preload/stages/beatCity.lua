@@ -4,34 +4,27 @@ local i =0
 local shot = false;
 local agent = 1
 local health = 0;
-local xx = 980;
-local yy = 670;
-local xx2 = 980;
-local yy2 = 670;
+local xx = 1340;
+local yy = 875;
+local xx2 = 1340;
+local yy2 = 875;
 local ofs = 7;
 local followchars = true;
 local del = 0;
 local del2 = 0;
+
 function onCreate()
 
-    setPropertyFromClass('GameOverSubstate', 'characterName', 'daniel-shine');
-
-    setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'fnf_loss_sfx2'); --First death
-	
-	setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'gameOver2'); --Death loop
-	
-	setPropertyFromClass('GameOverSubstate', 'endSoundName', 'gameOverEnd2'); --Retry Confirm
-
-    setProperty('defaultCamZoom',0.5)
+	setProperty('defaultCamZoom',0.5)
     makeLuaSprite('bartop','',0,-30)
     makeGraphic('bartop',1280,80,'000000')
     addLuaSprite('bartop',true)
     setObjectCamera('bartop','hud')
     setScrollFactor('bartop',0,0)
     
-    makeLuaSprite('city', 'beatCity', -350, -225);
-	setScrollFactor('city',1.0,1.0);
-    addLuaSprite('city', false);
+    makeLuaSprite('stageback', 'bbc2', 0, 0);
+	setLuaSpriteScrollFactor('stageback', 1.0, 1.0);
+	addLuaSprite('stageback', false);
 
     makeLuaSprite('barbot','',0,650)
     makeGraphic('barbot',1280,100,'000000')
@@ -39,7 +32,7 @@ function onCreate()
     setScrollFactor('barbot',0,0)
     setObjectCamera('barbot','hud')
 
-    precacheImage('beatCity');
+	precacheImage('bbc2');
 	
 end
 
