@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				93,
+				-15
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "gzezy instance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				93,
+				-15
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "gzezy instance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				183,
+				-85
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SANS WAKE UP BITCH instance"
+		},
+		{
+			"offsets": [
+				192,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "jghrue instance"
+		},
+		{
+			"offsets": [
+				129,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "ISTG instance"
+		},
+		{
+			"offsets": [
+				78,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "upahgn instance"
+		},
+		{
+			"offsets": [
+				28,
+				-26
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Bruh instance"
+		},
+		{
+			"offsets": [
+				183,
+				-85
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "SANS WAKE UP BITCH instance"
+		},
+		{
+			"offsets": [
+				192,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "jghrue instance"
+		},
+		{
+			"offsets": [
+				129,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "ISTG instance"
+		},
+		{
+			"offsets": [
+				78,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "upahgn instance"
+		},
+		{
+			"offsets": [
+				24,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "Oh Sans you Mother fuc- instance"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Papyrus",
+	"position": [
+		30,
+		200
+	],
+	"healthicon": "skele bois",
+	"flip_x": false,
+	"healthbar_colors": [
+		106,
+		47,
+		96
+	],
+	"camera_position": [
+		-80,
+		-30
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 1.2
+}

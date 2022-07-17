@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				54,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SansboneIdle instance 1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				62,
+				75
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Right instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				62,
+				75
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Right i",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				127,
+				41
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Left instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				127,
+				41
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Left i",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				70
+			],
+			"anim": "backtomic",
+			"fps": 24,
+			"name": "Sans puts back his shit instance 1",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sans_Brrrr",
+	"position": [
+		-40,
+		250
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-30,
+		70
+	],
+	"sing_duration": 5.99999999999999,
+	"scale": 0.8
+}
