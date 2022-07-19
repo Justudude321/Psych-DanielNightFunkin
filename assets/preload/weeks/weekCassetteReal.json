@@ -1,16 +1,20 @@
 {
-	"storyName": "just chillin, you earned it",
+	"storyName": "ooo secrets! Enjoy (WIP)",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "philly",
-	"weekBefore": "weekCassette",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "weekCassette",
 	"startUnlocked": false,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"cassettegirl-alt",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
 			"soda-groove",
@@ -20,13 +24,36 @@
 				41,
 				167
 			]
+		],
+		[
+			"groundhog-day",
+			"ace",
+			[
+				160,
+				215,
+				255
+			]
+		],
+		[
+			"xj",
+			"jenny",
+			[
+				0,
+				195,
+				215
+			]
+		],
+		[
+			"frostbite",
+			"cold-gold",
+			[
+				195,
+				173,
+				255
+			]
 		]
 	],
-	"weekCharacters": [
-		"cassettegirl-alt",
-		"bf",
-		"gf"
-	],
-	"hiddenUntilUnlocked": true,
-	"weekName": "weekCGReal"
+	"hideStoryMode": false,
+	"weekName": "weekCGReal",
+	"hiddenUntilUnlocked": true
 }

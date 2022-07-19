@@ -1,0 +1,41 @@
+{
+	"storyName": "Justin - hey that's me! (wip)",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "Rose",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"too-slow",
+			"sonic",
+			[
+				95,
+				0,
+				145
+			]
+		],
+		[
+			"phantasm",
+			"daniel",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Justin",
+	"hiddenUntilUnlocked": false
+}

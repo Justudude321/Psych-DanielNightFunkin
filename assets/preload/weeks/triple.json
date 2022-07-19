@@ -1,0 +1,50 @@
+{
+	"storyName": "extras, more will be added! Enjoy (WIP)",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "weekCassetteReal",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"roasted",
+			"",
+			[
+				255,
+				140,
+				140
+			]
+		],
+		[
+			"bonedoggle",
+			"skele bois",
+			[
+				245,
+				245,
+				245
+			]
+		],
+		[
+			"score",
+			"pico",
+			[
+				186,
+				255,
+				93
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "triple"
+}
