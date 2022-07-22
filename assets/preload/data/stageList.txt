@@ -9,8 +9,16 @@ schoolEvil
 alley
 alley-swag
 beatCity
+birthday
+bridge
 cgstage
+CN_CITY
+fleet
 futureCity
 hall
+highschool
+mountain
 NG
+snowyplace
+sonicstage
 sus
