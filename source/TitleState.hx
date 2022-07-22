@@ -323,7 +323,7 @@ class TitleState extends MusicBeatState
 				PlayState.SONG = Song.loadFromJson("soda-groove-easy", "soda-groove");
 				LoadingState.loadAndSwitchState(new PlayState());
 				StoryMenuState.weekCompleted.set('weekCassette', true);
-				#end
+			#end
 
 			default:
 			//EDIT THIS ONE IF YOU'RE MAKING A SOURCE CODE MOD!!!!
