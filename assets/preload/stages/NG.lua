@@ -8,7 +8,6 @@ local del = 0;
 local del2 = 0;
 function onCreate()
 
-    setProperty('defaultCamZoom',0.6)
     makeLuaSprite('bartop','',0,-30)
     makeGraphic('bartop',1280,80,'000000')
     addLuaSprite('bartop',true)

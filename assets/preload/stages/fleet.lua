@@ -8,7 +8,7 @@ local yy2 = 660
 local ofs = 30
 local del = 0
 local del2 = 0
-local bgs = {'fleet', 'sonic2'}
+local bgs = {'fleet', 'sonic'}
 
 function onCreate()
 	makeAnimatedLuaSprite('fx', 'vintage', 0, 0)

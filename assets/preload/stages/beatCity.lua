@@ -15,7 +15,6 @@ local del2 = 0;
 
 function onCreate()
 
-	setProperty('defaultCamZoom',0.5)
     makeLuaSprite('bartop','',0,-30)
     makeGraphic('bartop',1280,80,'000000')
     addLuaSprite('bartop',true)
@@ -49,7 +48,6 @@ function onUpdate(elapsed)
 	end
      if followchars == true then
         if mustHitSection == false then
-            setProperty('defaultCamZoom',0.50)
             if getProperty('dad.animation.curAnim.name') == 'singLEFT' then
                 triggerEvent('Camera Follow Pos',xx-ofs,yy)
             end

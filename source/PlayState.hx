@@ -5231,7 +5231,7 @@ class PlayState extends MusicBeatState
 							unlock = true;
 						}
 					case 'storytime':
-						if(Paths.formatToSongPath(SONG.song) == 'sussy'){
+						if(Paths.formatToSongPath(SONG.song) == 'sussy-pussy'){
 							unlock = true;
 						}
 					case 'bruh':

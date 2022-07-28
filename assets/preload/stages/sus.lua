@@ -13,7 +13,7 @@ local followchars = true;
 local del = 0;
 local del2 = 0;
 function onCreate()
-    setProperty('defaultCamZoom',0.8)
+    
     makeLuaSprite('bartop','',0,-30)
     makeGraphic('bartop',1280,100,'000000')
     addLuaSprite('bartop',true)
