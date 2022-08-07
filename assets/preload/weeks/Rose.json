@@ -3,48 +3,48 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "philly",
+	"weekBefore": "Daniel",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "Daniel",
 	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"parish",
+			"sarvente",
+			[
+				255,
+				130,
+				215
+			]
+		],
+		[
+			"promenade",
+			"niku2",
+			[
+				245,
+				245,
+				245
+			]
+		],
+		[
+			"dilemma",
+			"DriveThru",
+			[
+				235,
+				235,
+				0
+			]
+		]
+	],
 	"weekCharacters": [
 		"",
 		"bf",
 		"gf"
 	],
-	"songs": [
-		[
-			"promenade",
-			"niku2",
-			[
-				255,
-				0,
-				175
-			]
-		],
-		[
-			"kagayaku-kassetto",
-			"cgB2",
-			[
-				90,
-				100,
-				255
-			]
-		],
-		[
-			"joyous",
-			"carol2",
-			[
-				120,
-				120,
-				170
-			]
-		]
-	],
-	"hideStoryMode": false,
-	"weekName": "Rose",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "Rose"
 }
