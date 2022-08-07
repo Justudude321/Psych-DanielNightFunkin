@@ -1,3 +1,8 @@
+local defaultNotePos = {};
+local spin = false;
+local arrowMoveX = 0;
+local arrowMoveY = 0;
+
 function onCreate()
 	--Iterate over all notes
 	for i = 0, getProperty('unspawnNotes.length')-1 do
@@ -13,17 +18,33 @@ function onCreate()
 	function noteMiss(id, i, noteType, isSustainNote)
 		if noteType == 'Glitch Note' then
 		characterPlayAnim('boyfriend', 'hurt', true);
-		noteTweenX('defaultPlayerStrumX0', 4, defaultPlayerStrumX0 - math.random(50, screenWidth / 7), 0.001)
-		noteTweenX('defaultPlayerStrumX1', 5, defaultPlayerStrumX1 - math.random(50, screenWidth / 7), 0.001)
-		noteTweenX('defaultPlayerStrumX2', 6, defaultPlayerStrumX2 - math.random(50, screenWidth / 7), 0.001)
-		noteTweenX('defaultPlayerStrumX3', 7, defaultPlayerStrumX3 - math.random(50, screenWidth / 7), 0.001)
+		for i = 0,7 do 
+			x = getPropertyFromGroup('strumLineNotes', i, 'x')
+	
+			y = getPropertyFromGroup('strumLineNotes', i, 'y')
+	
+			table.insert(defaultNotePos, {x,y})
+		end
+		
+		for i = 4,7 do 
+			setPropertyFromGroup('strumLineNotes', i, 'x', 
+			defaultNotePos[i + 1][1] + math.floor(math.random(-150,150)))
+	
+			if downscroll == true then 
+				ylowest = 50;
+				yhighest = -150;
+			else 
+				ylowest = -150
+				yhighest = 150;
+			end
+	
+			setPropertyFromGroup('strumLineNotes', i, 'y', 
+			defaultNotePos[i + 1][2] + math.floor(math.random(ylowest,yhighest)))
+		end
 
-		noteTweenY('defaultPlayerStrumY0', 4, defaultPlayerStrumY0 - math.random(-50, -screenHeight / 5), 0.001)
-		noteTweenY('defaultPlayerStrumY1', 5, defaultPlayerStrumY1 - math.random(-50, -screenHeight / 5), 0.001)
-		noteTweenY('defaultPlayerStrumY2', 6, defaultPlayerStrumY2 - math.random(-50, -screenHeight / 5), 0.001)
-		noteTweenY('defaultPlayerStrumY3', 7, defaultPlayerStrumY3 - math.random(-50, -screenHeight / 5), 0.001)
 	end
 end
+
 end
 -- Function called when you hit a note (after note hit calculations)
 -- id: The note member id, you can get whatever variable you want from this note, example: "getPropertyFromGroup('notes', id, 'strumTime')"
