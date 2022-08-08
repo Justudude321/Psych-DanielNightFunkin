@@ -1,2 +1,0 @@
-Flag for 3rd Strumline to whether
-force GF Notes on Player Side to be in GF Strums
