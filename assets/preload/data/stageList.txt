@@ -12,13 +12,12 @@ beatCity
 birthday
 bridge
 cgstage
-CN_CITY
-fleet
-futureCity
+church
+DriveThru
 hall
 highschool
+jelly
 mountain
 NG
-snowyplace
 sonicstage
 sus
