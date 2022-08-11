@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"systematic-flaw",
+			"systematic",
+			[
+				255,
+				20,
+				80
+			]
+		]
+	],
+	"hiddenUntilUnlocked": true,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"storyName": "I liked this one",
+	"weekName": "Completion",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "Secrets-2",
+	"startUnlocked": false
+}
