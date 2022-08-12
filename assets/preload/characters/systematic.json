@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
-				-5,
+				0,
 				0
 			],
+			"loop": true,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 20,
-			"name": "systematic idle",
-			"indices": []
+			"indices": [],
+			"name": "systematic idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-1
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "systematic left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "systematic left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-32,
+				-20,
 				0
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "systematic right",
-			"indices": []
+			"indices": [],
+			"name": "systematic right"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				13,
-				-2
+				17,
+				-5
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "systematic down",
-			"indices": []
+			"indices": [],
+			"name": "systematic down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				10,
-				-1
+				17,
+				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "systematic up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "systematic up"
 		}
 	],
 	"no_antialiasing": false,
@@ -67,11 +67,11 @@
 	"healthbar_colors": [
 		255,
 		20,
-		100
+		40
 	],
 	"camera_position": [
 		-140,
-		200
+		140
 	],
 	"sing_duration": 4,
 	"scale": 0.9
