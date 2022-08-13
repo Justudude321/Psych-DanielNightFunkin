@@ -146,7 +146,7 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
-					case 'Sus Note':
+				case 'Sus Note':
 					ignoreNote = mustPress;
 					reloadNote('SUS');
 					noteSplashTexture = 'SUSnoteSplashes';
