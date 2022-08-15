@@ -22,9 +22,9 @@
 	"storyName": "I liked this one",
 	"weekName": "Completion",
 	"freeplayColor": [
-		146,
-		113,
-		253
+		204,
+		0,
+		71
 	],
 	"hideStoryMode": false,
 	"weekBefore": "Secrets-2",
