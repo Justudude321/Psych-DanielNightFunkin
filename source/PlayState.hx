@@ -3762,10 +3762,39 @@ class PlayState extends MusicBeatState
 				} else {
 					FunkinLua.setVarInArray(this, value1, value2);
 				}
+			
+			// case 'Missingno':
+			// 	missingnoThing();
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
 
+	// function missingnoThing() {
+	// 	for (i in opponentStrums)
+	// 		i.alpha = 0;
+			
+	// 			// ash algorithm
+	// 			isDownscroll = FlxG.random.bool(50);
+	// 			notes.forEach(function(note:Note){note.downscrollNote = isDownscroll;});
+	// 			for (i in 0...playerStrums.length) {
+	// 				if (i == 0) {
+	// 					playerStrums.members[i].x = FlxG.random.int(100, Std.int(FlxG.width / 3));
+	// 					if (isDownscroll)
+	// 						playerStrums.members[i].y = FlxG.random.int(Std.int(FlxG.height / 2), FlxG.height - 100);
+	// 					else
+	// 						playerStrums.members[i].y = FlxG.random.int(0, 300);
+							
+	// 				} else {
+	// 					var futurex = FlxG.random.int(Std.int(playerStrums.members[i - 1].x) + 80, Std.int(playerStrums.members[i - 1].x) + 400);
+	// 					if (futurex > FlxG.width - 100)
+	// 						futurex = FlxG.width - 100;
+	// 					playerStrums.members[i].x = futurex;
+	
+	// 					playerStrums.members[i].y = FlxG.random.int(Std.int(playerStrums.members[0].y - 50), Std.int(playerStrums.members[0].y + 50));
+	// 				}
+	// 			}
+	// } Need to figure this shit out
+	
 	function moveCameraSection():Void {
 		if(SONG.notes[curSection] == null) return;
 

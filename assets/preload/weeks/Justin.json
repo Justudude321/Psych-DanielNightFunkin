@@ -3,21 +3,25 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "philly",
-	"weekBefore": "Rose",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "Rose",
 	"startUnlocked": false,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
 	"songs": [
 		[
 			"too-slow",
 			"sonic",
 			[
 				94,
-				45,
+				30,
 				123
 			]
 		],
@@ -25,17 +29,13 @@
 			"atrocity",
 			"skeleton",
 			[
-				142,
-				82,
-				89
+				122,
+				42,
+				29
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"bf",
-		"gf"
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Justin"
+	"hideStoryMode": false,
+	"weekName": "Justin",
+	"hiddenUntilUnlocked": false
 }

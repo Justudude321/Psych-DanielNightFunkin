@@ -3,26 +3,22 @@
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "philly",
+	"weekBefore": "Daniel",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "Daniel",
 	"startUnlocked": false,
-	"weekCharacters": [
-		"",
-		"bf",
-		"gf"
-	],
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"parish",
 			"sarvente2",
 			[
 				255,
-				195,
-				235
+				125,
+				205
 			]
 		],
 		[
@@ -44,7 +40,11 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
-	"weekName": "Rose",
-	"hiddenUntilUnlocked": false
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Rose"
 }
