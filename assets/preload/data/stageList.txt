@@ -9,7 +9,6 @@ schoolEvil
 alley
 alley-swag
 beatCity
-birthday
 bridge
 cgstage
 church
