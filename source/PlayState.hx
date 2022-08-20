@@ -4481,6 +4481,11 @@ class PlayState extends MusicBeatState
 				note.destroy();
 			}
 		});
+		
+		if (combo > 15 && gf != null && gf.animOffsets.exists('sad'))
+		{
+			gf.playAnim('sad');
+		}
 		combo = 0;
 		health -= daNote.missHealth * healthLoss;
 		
@@ -4526,7 +4531,7 @@ class PlayState extends MusicBeatState
 				doDeathCheck(true);
 			}
 
-			if (combo > 5 && gf != null && gf.animOffsets.exists('sad'))
+			if (combo > 15 && gf != null && gf.animOffsets.exists('sad'))
 			{
 				gf.playAnim('sad');
 			}

@@ -15,30 +15,58 @@
 			"loop": false,
 			"offsets": [
 				0,
-				-5
+				3
 			],
-			"anim": "danceRight",
+			"anim": "danceLeft",
 			"fps": 24,
-			"name": "Nene danceright",
-			"indices": []
+			"name": "Nene dance",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
 		},
 		{
 			"loop": false,
 			"offsets": [
 				0,
+				3
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Nene dance",
+			"indices": [
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		},
+		{
+			"offsets": [
+				0,
 				0
 			],
-			"anim": "danceLeft",
+			"loop": false,
 			"fps": 24,
-			"name": "Nene danceleft",
-			"indices": []
+			"anim": "sad",
+			"indices": [],
+			"name": "Nene sad"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Nene",
 	"position": [
 		30,
-		-30
+		110
 	],
 	"healthicon": "gf",
 	"flip_x": false,
